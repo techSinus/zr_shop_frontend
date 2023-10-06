@@ -1,5 +1,5 @@
 .header {
-  height: 80px;
+  height: 100px;
   background: #F2F2F2;
   display: flex;
   justify-content: center;
@@ -9,15 +9,24 @@
   display: flex;
   justify-content: space-between;
 }
+.header .menu_bottom_img {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 40px;
+}
 .header .header_logo {
   color: #000;
-  font-size: 57px;
+  font-size: 43px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 5.7px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .header .search {
+  margin-top: auto;
+  margin-bottom: auto;
   position: relative;
   width: 35%;
 }
@@ -41,4 +50,16 @@
   color: #F9F0DA;
   font-size: 20px;
   font-weight: bold;
+}
+.header .header_basket {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 37px;
+  height: 40px;
+}
+.header .header_user {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 37px;
+  height: 40px;
 }/*# sourceMappingURL=header.css.map */

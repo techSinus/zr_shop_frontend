@@ -1,13 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Bebas Neue", sans-serif;
-  fontWeight: default FontWeight(400);
-  color: 0xFF000000;
+  font-Weight: default FontWeight(400);
+  color: FF000000;
 }
 
 img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 30px;
 }
 
 .main-page {

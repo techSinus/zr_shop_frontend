@@ -2,7 +2,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-size: 30px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -23,16 +22,21 @@ ul, li {
   list-style: none;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Bebas Neue", sans-serif;
-  fontWeight: default FontWeight(400);
-  color: 0xFF000000;
+  font-Weight: default FontWeight(400);
+  color: FF000000;
 }
 
 img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 30px;
 }
 
 .main-page {
@@ -109,7 +113,7 @@ hr.solid {
 }
 
 .header {
-  height: 80px;
+  height: 100px;
   background: #F2F2F2;
   display: flex;
   justify-content: center;
@@ -119,15 +123,24 @@ hr.solid {
   display: flex;
   justify-content: space-between;
 }
+.header .menu_bottom_img {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 40px;
+}
 .header .header_logo {
   color: #000;
-  font-size: 57px;
+  font-size: 43px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 5.7px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .header .search {
+  margin-top: auto;
+  margin-bottom: auto;
   position: relative;
   width: 35%;
 }
@@ -151,4 +164,16 @@ hr.solid {
   color: #F9F0DA;
   font-size: 20px;
   font-weight: bold;
+}
+.header .header_basket {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 37px;
+  height: 40px;
+}
+.header .header_user {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 37px;
+  height: 40px;
 }/*# sourceMappingURL=main.css.map */
