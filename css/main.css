@@ -33,7 +33,6 @@ body {
 img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 30px;
 }
 
 .main-page {
@@ -45,6 +44,10 @@ img {
 
 hr.solid {
   border-top: 2px solid #D9D9D9;
+}
+
+.cover {
+  margin-bottom: 30px;
 }
 
 .card-grid {
@@ -76,6 +79,7 @@ hr.solid {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  margin-bottom: 15px;
 }
 .card h6 {
   font-size: 3px;
