@@ -1,3 +1,25 @@
 body {
-  font-family: "Bebas Neue";
+  font-family: "Roboto Condensed", sans-serif;
+  fontWeight: default FontWeight(400);
+  color: 0xFF000000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-page {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 100px 100px;
+}
+
+hr.solid {
+  border-top: 2px solid #D9D9D9;
+}
+
+.cover {
+  margin-bottom: 30px;
 }
