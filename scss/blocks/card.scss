@@ -1,67 +1,79 @@
 .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(484px, 1fr));
-    gap: 100px 47px ;
+    gap: 100px 47px;
 }
 
 .card {
-    width: 484px;
-    height: 645px;
-    background-color: #FBCEB1;
+    width: 360px;
+    height: 500px;
+    background-color: #F5E7DF;
+    ;
     display: flex;
     flex-direction: column;
-    
-    text-align: left;
     justify-content: center;
-    padding: 40px 100px;
+    padding: 30px 40px 20px 40px;
 
     img {
-        max-width: 100%;
-        height: auto;
-        margin-bottom: 30px;
+        max-width: 224px;
+        max-height: 190px;
+        align-self: center;
+    }
+
+    h6 {
+        font-size: 3px;
+        align-self: center;
+        margin-bottom: 22px;
     }
 
     h2 {
-        margin-bottom: 20px;
-        font-size: 25px;
+        margin-bottom: 23px;
+        font-size: 25px; //19px
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         letter-spacing: 2.5px;
+        align-self: center;
     }
 
     p {
-        font-size: 18px;
+        font-size: 15px; //11px
         font-weight: 400;
-        margin-bottom: 13px;
+        margin-bottom: 15px;
         color: grey;
     }
 
     .price {
-        font-size: 30px;
+        font-size: 23px; //30px
         font-weight: 400;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        letter-spacing: 3px;
     }
 
     span {
         &.cu {
-            font-size: 18px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2px;
         }
     }
 
     .buttons {
-        //display: flex;
-        justify-content: space-between;
+        display: flex;
+        justify-content: space-around;
         width: 100%;
 
         button {
-            width: 133px;
-            height: 50 px;
-            padding: 10px 20px;
+            width: 127px;
+            height: 40 px;
+            padding: 5px 10px;
             border: solid 3px #FFF;
             //border-radius: 5px;
-            font-size: 22px;
+            font-size: 20px; //15px
             font-weight: 400;
+            letter-spacing: 2px;
             cursor: pointer;
 
             &.add-to-cart {

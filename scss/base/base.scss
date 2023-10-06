@@ -1,6 +1,6 @@
 // @import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
 body{
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     fontWeight:default FontWeight(400);
     color: 0xFF000000;
     //letterSpacing: 2.5.sp;
@@ -14,7 +14,8 @@ img {
 
 .main-page{
     //background-color: red;
-    padding: 187px 100px;
+    align-self: center;
+    padding: 100px 100px;
 }
 
 hr.solid {
