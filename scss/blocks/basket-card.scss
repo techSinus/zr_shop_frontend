@@ -1,0 +1,84 @@
+.basket-card {
+    width: 100%;
+    height: auto;
+    background-color: #F5E7DF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 23px 35px 23px 35px;
+
+    .item {
+        display: flex;
+        flex-direction: row;
+    }
+
+    img {
+        max-width: 122px;
+        max-height: 119px;
+        align-self: center;
+        margin-bottom: 15px;
+    }
+
+    .info {
+        padding-left: 81px;
+    }
+
+    .parameter {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+
+    .name {
+        margin-bottom: 25px;
+        font-size: 18px; //14px
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.8px;
+        //align-self: center;
+    }
+
+    p {
+        font-size: 18px; //11px
+        font-weight: 400;
+        margin-bottom: 15px;
+        color: grey;
+        padding-right: 20px;
+        letter-spacing: 1.5px;
+    }
+
+    .characteristic {
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .price {
+        font-size: 20px; //15px
+        font-weight: 400;
+        margin-top: 7px;
+        letter-spacing: 2px;
+    }
+
+    span {
+        &.cu {
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.5px;
+        }
+    }
+
+    .redaction {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    button{
+        background-color: transparent;
+        cursor: pointer;
+    }
+}

@@ -1,13 +1,21 @@
 .header {
   height: 100px;
   background: #F2F2F2;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .header .top_container {
   width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .header .menu_bottom_img {
   margin-top: auto;
@@ -62,4 +70,4 @@
   margin-bottom: auto;
   width: 37px;
   height: 40px;
-}/*# sourceMappingURL=header.css.map */
+}
