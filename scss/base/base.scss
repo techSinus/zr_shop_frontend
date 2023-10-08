@@ -23,6 +23,21 @@ img {
     padding: 100px 100px;
 }
 
+.cart-page{
+    //align-self: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: auto;
+    width: 50%;
+    .h2{
+        font-family: 'Bebas Neue', sans-serif;
+        font-Weight: default FontWeight(400);
+        color: red;
+        letter-spacing: 3px;
+        font-size: 30px;
+    }
+}
+
 hr.solid {
     border-top: 2px solid #D9D9D9;
 }

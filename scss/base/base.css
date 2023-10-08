@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -16,9 +17,30 @@ img {
 }
 
 .main-page {
-  padding: 187px 100px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 100px 100px;
+}
+
+.cart-page {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin: auto;
+  width: 50%;
+}
+.cart-page .h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-Weight: default FontWeight(400);
+  color: red;
+  letter-spacing: 3px;
+  font-size: 30px;
 }
 
 hr.solid {
   border-top: 2px solid #D9D9D9;
-}/*# sourceMappingURL=base.css.map */
+}
+
+.cover {
+  margin-bottom: 30px;
+}
