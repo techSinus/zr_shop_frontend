@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,13 +15,6 @@ img {
   height: auto;
 }
 
-.main-page {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  padding: 100px 100px;
-}
-
 .cart-page {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -30,7 +22,6 @@ img {
   width: 50%;
 }
 .cart-page .h2 {
-  font-family: "Bebas Neue", sans-serif;
   font-Weight: default FontWeight(400);
   color: red;
   letter-spacing: 3px;
@@ -43,4 +34,4 @@ hr.solid {
 
 .cover {
   margin-bottom: 30px;
-}
+}/*# sourceMappingURL=base.css.map */
