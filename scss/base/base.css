@@ -8,7 +8,7 @@
 body {
   font-family: "Oswald", sans-serif;
   font-Weight: default FontWeight(400);
-  color: FF000000;
+  color: #000;
 }
 
 img {
@@ -22,11 +22,15 @@ img {
   margin: auto;
   width: 50%;
 }
-.cart-page .h2 {
-  font-Weight: default FontWeight(400);
-  color: red;
+
+.cart-page .banner {
+=======
+
   letter-spacing: 3px;
   font-size: 30px;
+  padding-left: 73px;
+  padding-bottom: 35px;
+  text-transform: uppercase;
 }
 
 hr.solid {

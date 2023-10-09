@@ -26,8 +26,8 @@ ul, li {
 
 body {
   font-family: "Oswald", sans-serif;
-  font-Weight: default FontWeight(400);
-  color: FF000000;
+
+  color: #000;
 }
 
 img {
@@ -41,11 +41,14 @@ img {
   margin: auto;
   width: 50%;
 }
+
 .cart-page .h2 {
-  font-Weight: default FontWeight(400);
   color: red;
   letter-spacing: 3px;
   font-size: 30px;
+  padding-left: 73px;
+  padding-bottom: 35px;
+  text-transform: uppercase;
 }
 
 hr.solid {
@@ -55,6 +58,7 @@ hr.solid {
 .cover {
   margin-bottom: 30px;
 }
+
 
 @media only screen and (min-width: 320px) {
   .main-page {
@@ -245,6 +249,7 @@ hr.solid {
     grid-template-columns: 1fr 1fr 1fr;
     width: 1170px;
   }
+
 }
 .basket-card {
   width: 100%;
@@ -280,6 +285,7 @@ hr.solid {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 1.8px;
+  text-transform: uppercase;
 }
 .basket-card p {
   font-size: 18px;
@@ -307,13 +313,21 @@ hr.solid {
   line-height: normal;
   letter-spacing: 1.5px;
 }
-.basket-card .redaction-menu {
+
+
+.basket-card .redaction {
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .basket-card button {
+
   align-self: flex-end;
+
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+
   background-color: transparent;
   cursor: pointer;
 }
