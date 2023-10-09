@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,20 +15,16 @@ img {
   height: auto;
 }
 
-.main-page {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  padding: 100px 100px;
-}
-
 .cart-page {
   padding-top: 70px;
   padding-bottom: 70px;
   margin: auto;
   width: 50%;
 }
+
 .cart-page .banner {
+=======
+
   letter-spacing: 3px;
   font-size: 30px;
   padding-left: 73px;
@@ -43,4 +38,4 @@ hr.solid {
 
 .cover {
   margin-bottom: 30px;
-}
+}/*# sourceMappingURL=base.css.map */
