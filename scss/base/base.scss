@@ -6,36 +6,38 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Bebas Neue', sans-serif;
+body {
+    font-family: 'Oswald', sans-serif;
     font-Weight: default FontWeight(400);
-    color: FF000000;
+    color: #000;
 }
 
 img {
     max-width: 100%;
     height: auto;
-  }
+}
 
-.main-page{
+.main-page {
     //background-color: red;
     align-self: center;
     padding: 100px 100px;
 }
 
-.cart-page{
+.cart-page {
     //align-self: center;
     padding-top: 70px;
     padding-bottom: 70px;
     margin: auto;
     width: 50%;
-    .h2{
-        font-family: 'Bebas Neue', sans-serif;
-        font-Weight: default FontWeight(400);
-        color: red;
+
+    .banner{
         letter-spacing: 3px;
         font-size: 30px;
+        padding-left: 73px;
+        padding-bottom: 35px;
+        text-transform: uppercase;
     }
+
 }
 
 hr.solid {

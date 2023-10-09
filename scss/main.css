@@ -31,9 +31,9 @@ ul, li {
 }
 
 body {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-Weight: default FontWeight(400);
-  color: FF000000;
+  color: #000;
 }
 
 img {
@@ -54,12 +54,12 @@ img {
   margin: auto;
   width: 50%;
 }
-.cart-page .h2 {
-  font-family: "Bebas Neue", sans-serif;
-  font-Weight: default FontWeight(400);
-  color: red;
+.cart-page .banner {
   letter-spacing: 3px;
   font-size: 30px;
+  padding-left: 73px;
+  padding-bottom: 35px;
+  text-transform: uppercase;
 }
 
 hr.solid {
@@ -118,6 +118,7 @@ hr.solid {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  text-transform: uppercase;
 }
 .main-card p {
   font-size: 15px;
@@ -220,6 +221,7 @@ hr.solid {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 1.8px;
+  text-transform: uppercase;
 }
 .basket-card p {
   font-size: 18px;
@@ -247,7 +249,7 @@ hr.solid {
   line-height: normal;
   letter-spacing: 1.5px;
 }
-.basket-card .redaction {
+.basket-card .redaction-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -260,8 +262,20 @@ hr.solid {
           justify-content: space-between;
 }
 .basket-card button {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   background-color: transparent;
   cursor: pointer;
+}
+.basket-card .redaction {
+  height: 15px;
+  width: 15px;
+}
+.basket-card .delete {
+  font-size: 15px;
+  text-decoration: underline;
+  text-decoration-color: grey;
+  letter-spacing: 1.5px;
 }
 
 .header {

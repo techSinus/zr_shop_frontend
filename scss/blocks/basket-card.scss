@@ -36,6 +36,7 @@
         font-weight: 400;
         line-height: normal;
         letter-spacing: 1.8px;
+        text-transform: uppercase;
         //align-self: center;
     }
 
@@ -71,14 +72,30 @@
         }
     }
 
-    .redaction {
+    .redaction-menu {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
 
-    button{
+    button {
+        align-self: flex-end;
         background-color: transparent;
         cursor: pointer;
+
+
+
+    }
+
+    .redaction {
+        height: 15px;
+        width: 15px;
+    }
+
+    .delete {
+        font-size: 15px;
+        text-decoration: underline;
+        text-decoration-color: grey;
+        letter-spacing: 1.5px;
     }
 }

@@ -1,7 +1,87 @@
 .basket-card {
-  width: 360px;
-  height: 500px;
+  width: 100%;
+  height: auto;
   background-color: #F5E7DF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 23px 35px 23px 35px;
+}
+.basket-card .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.basket-card img {
+  max-width: 122px;
+  max-height: 119px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 15px;
+}
+.basket-card .info {
+  padding-left: 81px;
+}
+.basket-card .parameter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+.basket-card .name {
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+.basket-card p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: grey;
+  padding-right: 20px;
+  letter-spacing: 1.5px;
+}
+.basket-card .characteristic {
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.basket-card .price {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 7px;
+  letter-spacing: 2px;
+}
+.basket-card span.cu {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+.basket-card .redaction-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,53 +89,23 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 30px 40px 20px 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
-.basket-card img {
-  max-width: 224px;
-  max-height: 190px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  margin-bottom: 15px;
+.basket-card button {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background-color: transparent;
+  cursor: pointer;
 }
-.basket-card h6 {
-  font-size: 3px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  margin-bottom: 22px;
+.basket-card .redaction {
+  height: 15px;
+  width: 15px;
 }
-.basket-card h2 {
-  margin-bottom: 23px;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 2.5px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-.basket-card p {
+.basket-card .delete {
   font-size: 15px;
-  font-weight: 400;
-  margin-bottom: 15px;
-  color: grey;
-}
-.basket-card .price {
-  font-size: 23px;
-  font-weight: 400;
-  margin-bottom: 30px;
-  letter-spacing: 3px;
-}
-.basket-card span.cu {
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 2px;
+  text-decoration: underline;
+  text-decoration-color: grey;
+  letter-spacing: 1.5px;
 }
