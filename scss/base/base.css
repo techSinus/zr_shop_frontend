@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css2?family=Oswald&display=swap";
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +6,7 @@
 }
 
 body {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-Weight: default FontWeight(400);
   color: FF000000;
 }

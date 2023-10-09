@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css2?family=Oswald&display=swap";
 * {
   box-sizing: border-box;
   padding: 0;
@@ -24,7 +25,7 @@ ul, li {
 }
 
 body {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-Weight: default FontWeight(400);
   color: FF000000;
 }
@@ -306,14 +307,25 @@ hr.solid {
   line-height: normal;
   letter-spacing: 1.5px;
 }
-.basket-card .redaction {
+.basket-card .redaction-menu {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .basket-card button {
+  align-self: flex-end;
   background-color: transparent;
   cursor: pointer;
+}
+.basket-card .redaction {
+  height: 15px;
+  width: 15px;
+}
+.basket-card .delete {
+  font-size: 15px;
+  text-decoration: underline;
+  text-decoration-color: grey;
+  letter-spacing: 1.5px;
 }
 
 .header {

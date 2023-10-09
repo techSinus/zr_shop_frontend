@@ -59,12 +59,23 @@
   line-height: normal;
   letter-spacing: 1.5px;
 }
-.basket-card .redaction {
+.basket-card .redaction-menu {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .basket-card button {
+  align-self: flex-end;
   background-color: transparent;
   cursor: pointer;
+}
+.basket-card .redaction {
+  height: 15px;
+  width: 15px;
+}
+.basket-card .delete {
+  font-size: 15px;
+  text-decoration: underline;
+  text-decoration-color: grey;
+  letter-spacing: 1.5px;
 }/*# sourceMappingURL=basket-card.css.map */
