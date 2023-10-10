@@ -7,7 +7,6 @@
 
 body {
   font-family: "Oswald", sans-serif;
-  font-Weight: default FontWeight(400);
   color: #000;
 }
 
@@ -22,10 +21,7 @@ img {
   margin: auto;
   width: 50%;
 }
-
 .cart-page .banner {
-=======
-
   letter-spacing: 3px;
   font-size: 30px;
   padding-left: 73px;

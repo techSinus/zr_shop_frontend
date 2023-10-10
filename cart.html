@@ -2,8 +2,9 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZR shop | Cart</title>
+    <title>CARD</title>
     <link rel="stylesheet" href="scss/main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,24 +14,38 @@
 
 <body>
     <header class="header">
-        <div class="top_container">
-            <button class="menu_button">
-                <img class="menu_button_img" src="img/menu.svg" alt="">
-            </button>
-            <p class="header_logo">ZR SHOP</p>
-            <form class="search">
-                <input class="input_search" type="text" placeholder="Искать здесь...">
-                <button class="search_button">
-                    <img src="img/search.svg" alt="searchIcon">
-                </button>
-            </form>
-            <img class="header_user" src="img/profileIcon.png" alt="profileIcon">
-
-        </div>
+        <article class="header_cont">
+            <section class="top_container">
+                <div class="menu_button_cont">
+                    <button class="menu_button">
+                        <img class="menu_button_img" src="img/menu.svg" alt="">
+                    </button>   
+                </div>
+                <p class="header_logo">ZR SHOP</p>
+                <article class="search_leptop">
+                    <form class="search">
+                        <input class="input_search" type="text" placeholder="Искать здесь...">
+                        <button class="search_button">
+                            <img src="img/search.svg" alt="">
+                        </button>
+                    </form>    
+                </article>  
+                <a class="link_cont" href="#"><img class="header_link_img" src="img/basket.svg" alt=""></a>
+                <a class="link_cont" href="#"><img class="header_link_img" src="img/profileicon.svg" alt=""></a>
+            </section>
+            <section class="search_bottom">
+                <form class="search">
+                    <input class="input_search" type="text" placeholder="Искать здесь...">
+                    <button class="search_button">
+                        <img src="img/search.svg" alt="">
+                    </button>
+                </form>
+            </section>
+        </article>
     </header>
-    <div class="cart-page">
-        <h2 class="banner">Корзина</h2>
 
+    <main class="cart-page">
+        <h2 class="banner">Корзина</h2>
         <div class="basket-card">
             <div class="item">
                 <img src="img/hood1.jpg" alt="Product Image">
@@ -61,7 +76,7 @@
 
             </div>
         </div>
-    </div>
+    </main>
 
 
 </body></html>

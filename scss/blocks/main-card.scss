@@ -1,8 +1,18 @@
 @media only screen and (min-width: 320px) {
+    // .cover_cont {
+    //     overflow: hidden;
+    // }
+
+    // .cover {
+    //     width: 100%;
+    //     height: 400px;
+    
+    // }
+
     .main-page{
         display: flex;
         justify-content: center; 
-        margin-top: 70px;
+        margin-top: 30px;
     }
 
     .card_conteiner {
@@ -130,6 +140,10 @@
 
 @media only screen and (min-width: 1024px) {
     
+    .main-page{
+        margin-top: 70px;
+    }
+
     .card_conteiner {
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
@@ -141,7 +155,7 @@
 
     .main-card {
         width: 360px;
-        height: 510px;
+        height: 540px;
         padding: 20px 40px 30px 40px;
 
         .card_img {
@@ -190,7 +204,7 @@
                 color: #000;
                 width: 127px;
                 height: 40px;
-                font-size: 20px;
+                font-size: 17px;
                 letter-spacing: 2px;
             }
 
@@ -199,7 +213,7 @@
                 color: #000;
                 width: 127px;
                 height: 40px;
-                font-size: 20px;
+                font-size: 17px;
                 letter-spacing: 2px;
                 }
             }
