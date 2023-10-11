@@ -240,7 +240,7 @@ span.cu {
 
 .purchase_content {
   margin: auto;
-  width: 60%;
+  width: 80%;
   padding: 40px;
 }
 
@@ -294,9 +294,11 @@ span.cu {
 
 .big_bttn {
   text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
   background-color: black;
   color: white;
   font-size: 25px;
   letter-spacing: 2.5px;
-  padding: 12px 120px;
+  width: 50%;
+  padding: 12px;
 }
