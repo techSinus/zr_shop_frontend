@@ -1,4 +1,3 @@
-@import "https://fonts.googleapis.com/css2?family=Oswald&display=swap";
 
 * {
     margin: 0;
@@ -9,30 +8,23 @@
 
 body {
     font-family: 'Oswald', sans-serif;
+    font-Weight: default FontWeight(400);
     color: #000;
+    background-color: #F2F2F2;
 }
+
 
 img {
     max-width: 100%;
     height: auto;
 }
 
-.cart-page {
-    //align-self: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    margin: auto;
-    width: 50%;
 
-    .banner{
-        letter-spacing: 3px;
-        font-size: 30px;
-        padding-left: 73px;
-        padding-bottom: 35px;
-        text-transform: uppercase;
-    }
-
+.main-page {
+    align-self: center;
+    padding: 100px 100px;
 }
+
 
 
 hr.solid {
@@ -41,4 +33,9 @@ hr.solid {
 
 .cover {
     margin-bottom: 30px;
+}
+
+button {
+    cursor: pointer;
+
 }

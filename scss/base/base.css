@@ -2,12 +2,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
   font-family: "Oswald", sans-serif;
   color: #000;
+  background-color: #F2F2F2;
 }
 
 img {
@@ -15,18 +17,12 @@ img {
   height: auto;
 }
 
-.cart-page {
-  padding-top: 70px;
-  padding-bottom: 70px;
-  margin: auto;
-  width: 50%;
-}
-.cart-page .banner {
-  letter-spacing: 3px;
-  font-size: 30px;
-  padding-left: 73px;
-  padding-bottom: 35px;
-  text-transform: uppercase;
+
+.main-page {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 100px 100px;
 }
 
 hr.solid {
@@ -35,4 +31,8 @@ hr.solid {
 
 .cover {
   margin-bottom: 30px;
-}/*# sourceMappingURL=base.css.map */
+}
+
+button {
+  cursor: pointer;
+}

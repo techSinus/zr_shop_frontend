@@ -1,12 +1,19 @@
 @media only screen and (min-width: 320px) {
   .main-page {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    margin-top: 30px;
+
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 70px;
   }
   .card_conteiner {
+    display: -ms-grid;
     display: grid;
     margin: 0 auto;
+    -ms-grid-rows: auto;
     grid-template-rows: auto;
     grid-gap: 10px;
   }
@@ -15,19 +22,30 @@
     height: 380px;
     padding: 15px 20px 25px 20px;
     background-color: #F5E7DF;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .main-card .card_img {
     max-width: 167px;
     max-height: 149px;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     margin-bottom: 9px;
   }
   .main-card .card_carousel {
     font-size: 3px;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     margin-bottom: 15px;
   }
   .main-card .card_header {
@@ -40,6 +58,7 @@
     text-align: center;
   }
   .main-card .card_text_top {
+    display: -ms-grid;
     display: grid;
     gap: 9px;
     margin-top: 15px;
@@ -69,8 +88,12 @@
   }
   .main-card .buttons {
     margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .main-card .buttons .add-to-cart {
     background-color: #fff;
@@ -103,6 +126,7 @@
 }
 @media only screen and (min-width: 520px) {
   .card_conteiner {
+    -ms-grid-columns: 1fr 10px 1fr;
     grid-template-columns: 1fr 1fr;
     width: 500px;
     grid-gap: 10px;
@@ -110,6 +134,7 @@
 }
 @media only screen and (min-width: 768px) {
   .card_conteiner {
+    -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     width: 755px;
   }
@@ -119,6 +144,7 @@
     margin-top: 70px;
   }
   .card_conteiner {
+    -ms-grid-columns: 1fr 30px 1fr;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
   }
@@ -137,7 +163,9 @@
   }
   .main-card .card_carousel {
     font-size: 3px;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     margin-bottom: 22px;
   }
   .main-card .card_header {
@@ -146,6 +174,7 @@
     letter-spacing: 2.5px;
   }
   .main-card .card_text_top {
+    display: -ms-grid;
     display: grid;
     gap: 15px;
     margin-top: 23px;
@@ -165,8 +194,12 @@
   }
   .main-card .buttons {
     margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .main-card .buttons .add-to-cart {
     background-color: #fff;
@@ -187,7 +220,8 @@
 }
 @media only screen and (min-width: 1200px) {
   .card_conteiner {
+    -ms-grid-columns: 1fr 30px 1fr 30px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     width: 1170px;
   }
-}/*# sourceMappingURL=main-card.css.map */
+}
