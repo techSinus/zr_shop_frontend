@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,50 +19,188 @@
                 <img class="menu_button_img" src="img/menu.svg" alt="">
             </button>
             <p class="header_logo">ZR SHOP</p>
-            <form class="search">
-                <input class="input_search" type="text" placeholder="Искать здесь...">
-                <button class="search_button">
-                    <img src="img/search.svg" alt="searchIcon">
-                </button>
-            </form>
+            <img class="header_basket" src="img/productIcon2.png" alt="">
             <img class="header_user" src="img/profileIcon.png" alt="profileIcon">
 
         </div>
     </header>
-    <div class="cart-page">
-        <h2 class="banner">Корзина</h2>
+    <main class="cart-page">
 
-        <div class="basket-card">
-            <div class="item">
-                <img src="img/hood1.jpg" alt="Product Image">
-                <div class="info">
-                    <h2 class="name">Худи из неопрена</h2>
-                    <div class="parameter">
-                        <p>Кол-во:</p>
-                        <img src="img/arrow 1.png">
-                        <p class="characteristic">1</p>
-                        <img src="img/arrow 2.png">
-                    </div>
-                    <div class="parameter">
-                        <p>Размер:</p>
-                        <p class="characteristic">M</p>
+        <section class="pers_info_section">
+
+            <div class="first_banner">
+                <h2 class="banner">Личная информация</h2>
+            </div>
+
+            <div class="info_form">
+                <div class="first_col">
+                    <p class="param">Фамилия</p>
+                    <input class="input_data" type="text">
+                    <p class="param">Имя</p>
+                    <input class="input_data" type="text">
+                    <p class="param">Отчество</p>
+                    <input class="input_data" type="text">
+                    <p class="param">Дата рождения</p>
+                    <input class="input_data" type="text" placeholder="дд.мм.гггг">
+                    <p class="param">Пол</p>
+                    <div class="gender-container">
+                        <label for="male" class="gender-label">
+                            <input type="radio" id="male" name="gender" class="gender-input">
+                            М
+                        </label>
+                        <label for="female" class="gender-label">
+                            <input type="radio" id="female" name="gender" class="gender-input">
+                            Ж
+                        </label>
                     </div>
 
-                    <div class="price">3999 <span class="cu">tjs.</span></div>
+                </div>
+                <div class="second_col">
+                    <p class="param">Email</p>
+                    <input class="input_data" type="text">
+                    <p class="param">Телефон</p>
+                    <input class="input_data" type="text">
+                    <p class="param">Город</p>
+                    <input class="input_data" type="text">
+                    <p class="param">Улица, дом</p>
+                    <input class="input_data" type="text">
+                    <p class="param">Квартира</p>
+                    <input class="input_data" type="text">
+                </div>
+
+            </div>
+
+            <div class="big_bttn_section">
+                <button class="big_bttn">
+                    Сохранить
+                </button>
+            </div>
+        </section>
+
+        <section class="banner_section">
+            <h2 class="banner">Корзина</h2>
+        </section>
+
+        <section class="basket-card-grid">
+
+            <div class="basket-card">
+                <div class="product-item">
+                    <img src="img/hood1.jpg" alt="Product Image">
+                    <div class="card-info">
+                        <h2 class="name">Худи из неопрена</h2>
+                        <div class="parameter">
+                            <p class="param">Кол-во:</p>
+                            <img src="img/arrow 1.png">
+                            <p class="characteristic">1</p>
+                            <img src="img/arrow 2.png">
+                        </div>
+                        <div class="parameter">
+                            <p class="param">Размер:</p>
+                            <p class="characteristic">M</p>
+                        </div>
+
+                        <div class="price">3999 <span class="cu">tjs.</span></div>
+                    </div>
+                </div>
+
+                <div class="redaction_menu">
+                    <button class="redact_product">
+                        <img src="img/edit icon 1.png">
+                    </button>
+                    <button class="delete_product">
+                        <p class="bttn_txt">Удалить</p>
+                    </button>
+
                 </div>
             </div>
 
-            <div class="redaction-menu">
-                <button class="redaction">
-                    <img src="img/edit icon 1.png">
-                </button>
-                <button class="delete">
-                    <p>Удалить</p>
-                </button>
+            <div class="basket-card">
+                <div class="product-item">
+                    <img src="img/hood1.jpg" alt="Product Image">
+                    <div class="card-info">
+                        <h2 class="name">Худи из неопрена</h2>
+                        <div class="parameter">
+                            <p class="param">Кол-во:</p>
+                            <img src="img/arrow 1.png">
+                            <p class="characteristic">1</p>
+                            <img src="img/arrow 2.png">
+                        </div>
+                        <div class="parameter">
+                            <p class="param">Размер:</p>
+                            <p class="characteristic">M</p>
+                        </div>
 
+                        <div class="price">3999 <span class="cu">tjs.</span></div>
+                    </div>
+                </div>
+
+                <div class="redaction_menu">
+                    <button class="redact_product">
+                        <img src="img/edit icon 1.png">
+                    </button>
+                    <button class="delete_product">
+                        <p class="bttn_txt">Удалить</p>
+                    </button>
+
+                </div>
             </div>
-        </div>
-    </div>
+
+            <div class="basket-card">
+                <div class="product-item">
+                    <img src="img/hood1.jpg" alt="Product Image">
+                    <div class="card-info">
+                        <h2 class="name">Худи из неопрена</h2>
+                        <div class="parameter">
+                            <p class="param">Кол-во:</p>
+                            <img class="basket_img" src="img/arrow 1.png">
+                            <p class="characteristic">1</p>
+                            <img class="basket_img" src="img/arrow 2.png">
+                        </div>
+                        <div class="parameter">
+                            <p class="param">Размер:</p>
+                            <p class="characteristic">M</p>
+                        </div>
+
+                        <div class="price">3999 <span class="cu">tjs.</span></div>
+                    </div>
+                </div>
+
+                <div class="redaction_menu">
+                    <button class="redact_product">
+                        <img class="basket_img" src="img/edit icon 1.png">
+                    </button>
+                    <button class="delete_product">
+                        <p class="bttn_txt">Удалить</p>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="purchase_section">
+            <div class="purchase_content">
+                <div class="price-parameter">
+                    <p class="param">Сумма заказа:</p>
+                    <div class="part-price">1786 <span class="cu">tjs.</span></div>
+                </div>
+                <div class="price-parameter">
+                    <p class="param">Скидка:</p>
+                    <div class="part-price">0 <span class="cu">tjs.</span></div>
+                </div>
+                <div class="price-parameter">
+                    <h2 class="banner">Итого:</h2>
+                    <div class="total-price">1786 <span class="cu">tjs.</span></div>
+                </div>
+
+                <div class="big_bttn_section">
+                    <button class="big_bttn">
+                        Оформить заказ
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
 
 
 </body></html>

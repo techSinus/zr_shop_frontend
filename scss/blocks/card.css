@@ -5,7 +5,7 @@
   gap: 100px 47px;
 }
 
-.card {
+.main-card {
   width: 360px;
   height: 500px;
   background-color: #F5E7DF;
@@ -21,7 +21,7 @@
           justify-content: center;
   padding: 30px 40px 20px 40px;
 }
-.card img {
+.main-card img {
   max-width: 224px;
   max-height: 190px;
   -ms-flex-item-align: center;
@@ -29,14 +29,14 @@
       align-self: center;
   margin-bottom: 15px;
 }
-.card h6 {
+.main-card h6 {
   font-size: 3px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   margin-bottom: 22px;
 }
-.card h2 {
+.main-card h2 {
   margin-bottom: 23px;
   font-size: 25px;
   font-style: normal;
@@ -47,26 +47,26 @@
       -ms-grid-row-align: center;
       align-self: center;
 }
-.card p {
+.main-card p {
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 15px;
   color: grey;
 }
-.card .price {
+.main-card .price {
   font-size: 23px;
   font-weight: 400;
   margin-bottom: 30px;
   letter-spacing: 3px;
 }
-.card span.cu {
+.main-card span.cu {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 2px;
 }
-.card .buttons {
+.main-card .buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -74,7 +74,7 @@
       justify-content: space-around;
   width: 100%;
 }
-.card .buttons button {
+.main-card .buttons button {
   width: 127px;
   height: 40 px;
   padding: 5px 10px;
@@ -84,11 +84,11 @@
   letter-spacing: 2px;
   cursor: pointer;
 }
-.card .buttons button.add-to-cart {
+.main-card .buttons button.add-to-cart {
   background-color: #fff;
   color: #000;
 }
-.card .buttons button.description {
+.main-card .buttons button.description {
   background-color: transparent;
   color: #000;
 }
