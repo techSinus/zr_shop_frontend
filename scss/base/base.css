@@ -1,13 +1,12 @@
-@import "https://fonts.googleapis.com/css2?family=Oswald&display=swap";
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Oswald", sans-serif;
+  font-Weight: default FontWeight(400);
   color: #000;
   background-color: #F2F2F2;
 }
@@ -17,11 +16,8 @@ img {
   height: auto;
 }
 
-
 .main-page {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
   padding: 100px 100px;
 }
 
@@ -35,4 +31,4 @@ hr.solid {
 
 button {
   cursor: pointer;
-}
+}/*# sourceMappingURL=base.css.map */
