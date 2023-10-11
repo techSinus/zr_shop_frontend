@@ -1,0 +1,134 @@
+@media only screen and (min-width: 320px) {
+    .index_footer {
+        background: #202020;
+        display: flex;
+        justify-content: center;
+        .info_cont {
+            display: block;
+            width: 320px;
+        }
+        
+        .conteiner {
+            // display: grid;
+            // margin: 0 auto;  
+            // grid-template-rows: auto;
+            // grid-template-columns: 1fr 1fr 1fr;
+            // color: #000; 
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-top: 35px;
+            
+            .logo_cont {
+                .logo_header {
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 4px;
+                }
+                .logo_img_cont {
+                    padding-top: 35px;
+                    display: flex;
+                    justify-content: center;
+                    .logo_img {
+                        width: 123px;
+                        height: 106px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    } 
+                }
+            }
+            .social_cont {
+                padding-top: 35px;
+                .social_icons {
+                    display: flex;
+                    justify-content: space-around;
+                    padding-top: 35px;
+                    .social_icon {
+                        width: 35px;
+                        height: 35px;
+                    }
+                }
+            }
+            .pay_cont {
+                padding-top: 35px;
+                .pay_icons {
+                    display: flex;
+                    justify-content: space-around;
+                    padding-top: 35px;
+                    .icon_viza {
+                        width: 38px;
+                        height: 27px;  
+                    }
+                    .icon_world {
+                        width: 84px;
+                        height: 27px;
+                    }
+                    .icon_master {
+                        width: 44px;
+                        height: 27px;
+                    }
+                }
+            }
+            .footer_header {
+                color: rgba(255, 255, 255, 0.50);
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 3px;
+            }
+            
+        }
+        .copy_cont {
+            padding-top: 40px;
+            padding-bottom: 35px;
+            .copyright {
+                color: rgba(255, 255, 255, 0.40);
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 2px;
+            }
+        }
+    }  
+}
+
+@media only screen and (min-width: 600px) {
+    .index_footer {
+        .info_cont {
+            width: 530px;
+            .pay_cont {
+                padding-top: 0;
+            }
+            .social_cont {
+                padding-top: 0;
+            }
+            .copy_cont {
+                display: flex;
+                justify-content: space-between;
+                padding-top: 130px;
+
+            }
+        }  
+    }
+}
+
+@media only screen and (min-width: 920px) {
+    .index_footer {
+        .info_cont {
+            width: 80%;
+            .pay_cont {
+                padding-top: 0;
+            }
+        }  
+    }
+}
+
+
+
+

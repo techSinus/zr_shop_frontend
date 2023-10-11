@@ -441,4 +441,117 @@ hr.solid {
     width: 42px;
     height: 40px;
   }
+}
+@media only screen and (min-width: 320px) {
+  .index_footer {
+    background: #202020;
+    display: flex;
+    justify-content: center;
+  }
+  .index_footer .info_cont {
+    display: block;
+    width: 320px;
+  }
+  .index_footer .conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 35px;
+  }
+  .index_footer .conteiner .logo_cont .logo_header {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+  }
+  .index_footer .conteiner .logo_cont .logo_img_cont {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+  }
+  .index_footer .conteiner .logo_cont .logo_img_cont .logo_img {
+    width: 123px;
+    height: 106px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_footer .conteiner .social_cont {
+    padding-top: 35px;
+  }
+  .index_footer .conteiner .social_cont .social_icons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+  }
+  .index_footer .conteiner .social_cont .social_icons .social_icon {
+    width: 35px;
+    height: 35px;
+  }
+  .index_footer .conteiner .pay_cont {
+    padding-top: 35px;
+  }
+  .index_footer .conteiner .pay_cont .pay_icons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+  }
+  .index_footer .conteiner .pay_cont .pay_icons .icon_viza {
+    width: 38px;
+    height: 27px;
+  }
+  .index_footer .conteiner .pay_cont .pay_icons .icon_world {
+    width: 84px;
+    height: 27px;
+  }
+  .index_footer .conteiner .pay_cont .pay_icons .icon_master {
+    width: 44px;
+    height: 27px;
+  }
+  .index_footer .conteiner .footer_header {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+  }
+  .index_footer .copy_cont {
+    padding-top: 40px;
+    padding-bottom: 35px;
+  }
+  .index_footer .copy_cont .copyright {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .index_footer .info_cont {
+    width: 530px;
+  }
+  .index_footer .info_cont .pay_cont {
+    padding-top: 0;
+  }
+  .index_footer .info_cont .social_cont {
+    padding-top: 0;
+  }
+  .index_footer .info_cont .copy_cont {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 130px;
+  }
+}
+@media only screen and (min-width: 920px) {
+  .index_footer .info_cont {
+    width: 80%;
+  }
+  .index_footer .info_cont .pay_cont {
+    padding-top: 0;
+  }
 }/*# sourceMappingURL=main.css.map */
