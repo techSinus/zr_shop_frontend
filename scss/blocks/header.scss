@@ -1,36 +1,64 @@
-
-.header {
-    height: 100px;
+@media only screen and (min-width: 320px) {
+  .header {
+    height: 150px;
     background: #F2F2F2;
     display: flex;
     justify-content: center;
 
+    .header_cont {
+      display: block;
+      width: 80%;
+    }
+
+
     .top_container {
-        width: 90%;
         display: flex;
         justify-content: space-between;
+        height: 80px;
+    }
+
+    .menu_button_cont {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .menu_button {
+      width: 34px;
+      height: 25px;
     }
 
     .menu_bottom_img {
       margin-top: auto;
       margin-bottom: auto;
-      height: 40px;
+      width: 34px;
+      height: 25px;
+      text-align: center;
     }
     .header_logo {
       color: #000;
-      font-size: 43px;
+      font-size: 25px;
       font-style: normal;
       font-weight: 700;
       line-height: normal;
-      letter-spacing: 5.7px;
+      letter-spacing: 3.5px;
       margin-top: auto;
       margin-bottom: auto;
+
+    }
+    .search_bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .search_leptop {
+      display: none;
     }
     .search {
         margin-top: auto;
         margin-bottom: auto;
         position: relative;
-        width: 35%;
+        width: 100%;
       }
       .input_search, .search_button {
         border-radius: 40px;
@@ -53,19 +81,42 @@
         font-size: 20px;
         font-weight: bold;
       }
-    .header_basket {
-      margin-top: auto;
-      margin-bottom: auto; 
-      width: 37px;
-      height: 40px;
-    }
-    .header_user {
-      margin-top: auto;
-      margin-bottom: auto;
-      width: 37px;
-      height: 40px;
-    }
 
- 
-
+    .link_cont {
+      padding-top: 27px;
+      .header_link_img {
+        width: 26px;
+        height: 25px;
+      }
+    }
+  }
 }
+
+@media only screen and (min-width: 768px) {
+  .header {
+    height: 80px;
+    .search_bottom {
+      display: none;
+    }
+    .search_leptop {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 35%;
+    }
+    .menu_button {
+      width: 63px;
+      height: 40px;
+    }
+    .link_cont {
+      padding-top: 20px;
+
+      .header_link_img {
+        width: 42px;
+        height: 40px;
+      }
+    }
+  }
+}
+
+
