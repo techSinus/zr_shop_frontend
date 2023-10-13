@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="product.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="scss/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-
+    <header class="header">
+        <article class="header_cont">
+            <section class="top_container">
+                <p class="header_logo">ZR SHOP</p> 
+                <div class="product_head">
+                    <a class="link_cont" href="#"><img class="header_link_img" src="img/basket.svg" alt=""></a>
+                    <a class="link_cont" href="#"><img class="header_link_img" src="img/profileicon.svg" alt=""></a>
+                </div>    
+            </section>
+        </article>
     </header>
-    <main>
-        <div class="container">
+    <main class="product_main">
+        <article class="product_cont">
             <article class="path">
                 <a class="path_link">ГЛАВНАЯ</a>
                 <span class="path_part">/</span>
@@ -18,30 +32,36 @@
             </article>
             <article class="product_cart">
                 <section class="clothes">
-                    <img class="" src="/img/hood1.jpg">
-                    <p>размер: м</p>
-                    <span class="size">
-                        <button class="button_size">S</button>
-                        <button class="button_size">M</button>
-                        <button class="button_size">L</button>
-                    </span>
+                    <img class="clothes_img" src="img/productHood.png">
+                    <p class="clothes_header">размер: м</p>
+                    <div class="size_cont">
+                        <span class="clothes_size">
+                            <button class="button_size">S</button>
+                            <button class="button_size">M</button>
+                            <button class="button_size">L</button>
+                        </span>
+                    </div>
+                    
                 </section>
                 <section class="description">
-                    <h2 class="description_title"></h2>
-                    <p class="description_text"></p>
-                    <p class="description_text"></p>
+                    <h2 class="description_title">худи из неопрена</h2>
+                    <p class="description_text_top">описание:</p>
+                    <p class="description_text">худи в стиле oversize из качественных материалов</p>
                     <ul class="features">
-                        <li class="features_text"></li>
-                        <li class="features_text"></li>
-                        <li class="features_text"></li>
+                        <li class="features_text">— КАПЮШОН НА ЗАВЯЗКАХ</li>
+                        <li class="features_text">— ОТРЕЗНЫЕ МАНДЖЕТЫ</li>
+                        <li class="features_text">— КАРМАН КЕНГУРУ</li>
                     </ul>
-                    <p class="price"></p>
-                    <button class="button_add"></button>
+                    <section class="add_cont">
+                        <div class="product_price">3999 <span class="product_cu">tjs.</span></div>
+                        <button class="button_add"> В КОРЗИНУ</button>
+                    </section>
                 </section>
             </article>
             <article class="carousel">
             </article>
-        </div>
+        </article>
+        
     </main>
     <footer>
         <div class="container">
