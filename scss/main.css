@@ -291,6 +291,9 @@ button {
   .product-image {
     display: none;
   }
+  .banner_section {
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 600px) and (max-width: 919px) {
   .cart-page {
@@ -320,6 +323,9 @@ button {
   }
   .card-info {
     padding-left: 40px;
+  }
+  .banner_section {
+    width: 80%;
   }
 }
 @media only screen and (min-width: 920px) {
@@ -351,6 +357,9 @@ button {
   .card-info {
     padding-left: 81px;
   }
+  .banner_section {
+    width: 80%;
+  }
 }
 .cart-page {
   padding-top: 70px;
@@ -359,7 +368,6 @@ button {
 }
 .cart-page .banner_section {
   margin: auto;
-  width: 80%;
   padding-bottom: 35px;
 }
 .cart-page .basket-card-grid {
@@ -371,6 +379,21 @@ button {
 .cart-page .purchase_section {
   margin-top: 90px;
   background-color: white;
+  position: relative;
+}
+.cart-page .purchase_section::before, .cart-page .purchase_section::after {
+  content: "";
+  background-color: lightgray;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 310px;
+}
+.cart-page .purchase_section::before {
+  left: -310px;
+}
+.cart-page .purchase_section::after {
+  right: -310px;
 }
 
 .first_banner {
@@ -617,30 +640,35 @@ span.cu {
   font-size: inherit;
   letter-spacing: inherit;
   text-transform: uppercase;
+  color: black;
 }
 
 .input_data::-moz-placeholder {
   font-size: inherit;
   letter-spacing: inherit;
   text-transform: uppercase;
+  color: black;
 }
 
 .input_data:-ms-input-placeholder {
   font-size: inherit;
   letter-spacing: inherit;
   text-transform: uppercase;
+  color: black;
 }
 
 .input_data::-ms-input-placeholder {
   font-size: inherit;
   letter-spacing: inherit;
   text-transform: uppercase;
+  color: black;
 }
 
 .input_data::placeholder {
   font-size: inherit;
   letter-spacing: inherit;
   text-transform: uppercase;
+  color: black;
 }
 
 .gender-container {
@@ -648,8 +676,7 @@ span.cu {
   display: -ms-flexbox;
   display: flex;
 }
-
-.gender-label {
+.gender-container .gender-label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -661,8 +688,16 @@ span.cu {
   margin-right: 20px;
   padding: 14px;
 }
-.gender-label .gender-input {
+.gender-container .gender-label .gender-input {
   display: none;
+}
+.gender-container .gender-label .gender-input:checked + .gender-label {
+  background-color: red;
+  color: blue;
+}
+.gender-container .gender-label .gender-input:focus + .gender-label {
+  background-color: red;
+  color: black;
 }
 
 @media only screen and (min-width: 320px) {

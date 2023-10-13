@@ -1,4 +1,9 @@
+
 @media only screen and (min-width: 320px) and (max-width: 599px) {
+
+    $stripe-width: 110px  !global;
+
+
     .cart-page {
         width: 300px;
     }
@@ -15,9 +20,17 @@
     .product-image {
         display: none;
     }
+
+    .banner_section {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 919px) {
+
+    $stripe-width: 200px  !global;
+
+
     .cart-page {
         width: 560px;
     }
@@ -34,6 +47,7 @@
     .total-price-parameter {
         display: flex;
     }
+
     .product-image {
         display: block;
         align-self: center;
@@ -44,9 +58,15 @@
     .card-info {
         padding-left: 40px;
     }
+
+    .banner_section {
+        width: 80%;
+    }
 }
 
 @media only screen and (min-width: 920px) {
+    $stripe-width: 310px !global;
+
     .cart-page {
         width: 880px;
     }
@@ -75,6 +95,10 @@
         padding-left: 81px;
     }
 
+    .banner_section {
+        width: 80%;
+    }
+
 }
 
 .cart-page {
@@ -86,7 +110,6 @@
 
     .banner_section {
         margin: auto;
-        width: 80%;
         //padding-left: 73px;
         padding-bottom: 35px;
     }
@@ -100,6 +123,25 @@
     .purchase_section {
         margin-top: 90px;
         background-color: white;
+        position: relative;
+
+        &::before,
+        &::after {
+            content: "";
+            background-color: lightgray;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: $stripe-width;
+        }
+
+        &::before{
+            left: -$stripe-width;
+        }
+
+         &::after {
+             right: -$stripe-width;
+        }
     }
 }
 
