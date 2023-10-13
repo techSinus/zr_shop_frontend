@@ -1,112 +1,63 @@
-@media only screen and (min-width: 320px) {
-  .product_head {
-    display: flex;
-    justify-content: space-between;
-    width: 80px;
-  }
-  .product_main {
-    display: flex;
-    justify-content: center;
-  }
-  .product_main .product_cont {
-    width: 80%;
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .product_cont {
     display: block;
   }
-  .product_main .product_cont .product_cart {
-    background: rgba(251, 206, 177, 0.3);
-    height: 576px;
-    display: flex;
-    justify-content: space-around;
+  .product_cont .product_cart {
+    display: block;
+    padding: 20px;
+    width: 320px;
   }
-  .product_main .product_cont .product_cart .clothes {
-    text-align: center;
-    color: #000;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px; /* 145.833% */
-    letter-spacing: 2.4px;
-    padding-top: 32px;
-  }
-  .product_main .product_cont .product_cart .clothes .clothes_img {
+  .clothes_img {
     width: 233px;
     height: 223px;
-    margin-top: auto;
   }
-  .product_main .product_cont .product_cart .clothes .clothes_header {
-    margin-top: 10px;
-  }
-  .product_main .product_cont .product_cart .clothes .size_cont {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-  }
-  .product_main .product_cont .product_cart .clothes .size_cont .clothes_size {
-    background: rgba(251, 206, 177, 0.5);
-    display: flex;
-    justify-content: space-around;
-    width: 118px;
-    height: 29px;
-  }
-  .product_main .product_cont .product_cart .clothes .size_cont .clothes_size .button_size {
-    background-color: rgba(251, 206, 177, 0.5);
-  }
-  .product_main .product_cont .product_cart .description {
-    width: 45%;
+  .description {
     padding-top: 32px;
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px; /* 145.833% */
-    letter-spacing: 2.4px;
+    font-size: 22px;
   }
-  .product_main .product_cont .product_cart .description .description_title {
-    color: #000;
+  .description .description_title {
     margin-bottom: 20px;
   }
-  .product_main .product_cont .product_cart .description .description_text {
+  .description .description_text {
     margin-top: 15px;
     margin-bottom: 20px;
   }
-  .product_main .product_cont .product_cart .description .features {
+  .description .features {
+    display: -ms-grid;
     display: grid;
     gap: 10px;
   }
-  .product_main .product_cont .product_cart .description .features .features_text {
+  .description .features .features_text {
     margin-left: 20px;
+    font-size: 20px;
   }
-  .product_main .product_cont .product_cart .add_cont {
-    display: flex;
-    justify-content: flex-start;
+  .add_cont {
     margin-top: 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
-  .product_main .product_cont .product_cart .add_cont .product_price {
-    color: #000;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px; /* 87.5% */
+  .add_cont .product_price {
+    font-size: 28px;
     letter-spacing: 4px;
   }
-  .product_main .product_cont .product_cart .add_cont .product_price .product_cu {
-    color: #000;
+  .add_cont .product_price .product_cu {
     font-size: 16px;
-    letter-spacing: 2.5px;
   }
-  .product_main .product_cont .product_cart .add_cont .button_add {
-    width: 150px;
-    height: 40px;
-    background: #FFF;
-    color: #000;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px;
-    letter-spacing: 2.5px;
+  .add_cont .button_add {
+    font-size: 18px;
   }
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .product_main .product_cont .product_cart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 20px;
+  }
+  .product_main .product_cont .product_cart .clothes {
+    padding-top: 32px;
+  }
   .product_main .product_cont .product_cart .clothes .clothes_img {
     width: 273px;
     height: 263px;
@@ -125,6 +76,7 @@
     margin-bottom: 20px;
   }
   .product_main .product_cont .product_cart .description .features {
+    display: -ms-grid;
     display: grid;
     gap: 10px;
   }
@@ -133,6 +85,9 @@
   }
   .product_main .product_cont .product_cart .add_cont {
     margin-top: 20px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .product_main .product_cont .product_cart .add_cont .product_price {
     font-size: 22px;
@@ -146,7 +101,13 @@
     font-size: 20px;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .product_main .product_cont .product_cart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px;
+  }
   .product_main .product_cont .product_cart .clothes {
     padding-top: 32px;
   }
@@ -160,6 +121,7 @@
     font-size: 24px;
   }
   .product_main .product_cont .product_cart .description .features {
+    display: -ms-grid;
     display: grid;
     gap: 20px;
   }
@@ -167,8 +129,13 @@
     margin-left: 20px;
   }
   .product_main .product_cont .product_cart .add_cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 25px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .product_main .product_cont .product_cart .add_cont .product_price {
     font-size: 40px;
@@ -183,8 +150,157 @@
   }
 }
 @media only screen and (min-width: 1200px) {
+  .product_main .product_cont .product_cart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 40px;
+  }
+  .product_main .product_cont .product_cart .clothes {
+    padding-top: 32px;
+  }
   .product_main .product_cont .product_cart .clothes .clothes_img {
     width: 433px;
     height: 423px;
   }
-}/*# sourceMappingURL=product.css.map */
+  .product_main .product_cont .description {
+    padding-top: 32px;
+    font-size: 24px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .product_main .product_cont .description .features {
+    display: -ms-grid;
+    display: grid;
+  }
+  .product_main .product_cont .description .features .features_text {
+    margin-left: 20px;
+  }
+  .product_main .product_cont .add_cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 30px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .product_main .product_cont .add_cont .product_price {
+    font-size: 40px;
+  }
+  .product_main .product_cont .add_cont .product_price .product_cu {
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 2.5px;
+  }
+  .product_main .product_cont .add_cont .button_add {
+    margin-left: 25px;
+  }
+}
+.product_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 45px;
+}
+.product_main .product_cont {
+  display: block;
+}
+.product_main .product_cont .product_cart {
+  background: rgba(251, 206, 177, 0.3);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.product_main .product_cont .product_cart .clothes {
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  /* 145.833% */
+  letter-spacing: 2.4px;
+}
+.product_main .product_cont .product_cart .clothes .clothes_header {
+  margin-top: 10px;
+}
+.product_main .product_cont .product_cart .clothes .size_cont {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.product_main .product_cont .product_cart .clothes .size_cont .clothes_size {
+  background: rgba(251, 206, 177, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 118px;
+  height: 29px;
+}
+.product_main .product_cont .product_cart .clothes .size_cont .clothes_size .button_size {
+  background-color: rgba(251, 206, 177, 0.5);
+}
+.product_main .product_cont .product_cart .description {
+  padding-top: 32px;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  /* 145.833% */
+  letter-spacing: 2.4px;
+}
+.product_main .product_cont .product_cart .description .description_title {
+  color: #000;
+  margin-bottom: 20px;
+}
+.product_main .product_cont .product_cart .description .description_text {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.product_main .product_cont .product_cart .description .features {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+}
+.product_main .product_cont .product_cart .description .features .features_text {
+  margin-left: 20px;
+}
+.product_main .product_cont .product_cart .add_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+.product_main .product_cont .product_cart .add_cont .product_price {
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  /* 87.5% */
+  letter-spacing: 4px;
+  padding-right: 20px;
+}
+.product_main .product_cont .product_cart .add_cont .product_price .product_cu {
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 2.5px;
+}
+.product_main .product_cont .product_cart .add_cont .button_add {
+  background: #FFF;
+  color: #000;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 2.5px;
+}
