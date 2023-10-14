@@ -4,13 +4,13 @@
     background: #F2F2F2;
     display: flex;
     justify-content: center;
-    
+
     .header_cont {
       display: block;
       width: 80%;
     }
 
-    
+
     .top_container {
         display: flex;
         justify-content: space-between;
@@ -81,7 +81,7 @@
         font-size: 20px;
         font-weight: bold;
       }
-    
+
     .link_cont {
       padding-top: 27px;
       .header_link_img {
@@ -107,6 +107,7 @@
 
     .link_cont {
       padding-top: 27px;
+
     }
   }
 }

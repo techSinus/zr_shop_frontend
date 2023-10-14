@@ -1,16 +1,17 @@
 @media only screen and (min-width: 320px) {
+
     .main-page{
         display: flex;
-        justify-content: center; 
+        justify-content: center;
         margin-top: 70px;
     }
 
     .card_conteiner {
       display: grid;
-      margin: 0 auto;  
+      margin: 0 auto;
       grid-template-rows: auto;
       grid-gap: 10px;
-    }  
+    }
 
     .main-card {
         width: 245px;
@@ -27,13 +28,13 @@
             align-self: center;
             margin-bottom: 9px;
         }
-    
+
         .card_carousel {
             font-size: 3px;
             align-self: center;
             margin-bottom: 15px;
         }
-    
+
         .card_header {
             color: #000;
             font-size: 16px;
@@ -109,14 +110,14 @@
                 }
             }
     }
-}   
+}
 
 @media only screen and (min-width: 520px) {
     .card_conteiner {
         grid-template-columns: 1fr 1fr;
         width: 500px;
         grid-gap: 10px;
-      }  
+      }
 }
 
 
@@ -125,11 +126,11 @@
     .card_conteiner {
       grid-template-columns: 1fr 1fr 1fr;
       width: 755px;
-    }  
+    }
 }
 
 @media only screen and (min-width: 1024px) {
-    
+
     .card_conteiner {
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
@@ -137,7 +138,7 @@
 
     .card_conteiner {
       grid-gap: 30px;
-    }  
+    }
 
     .main-card {
         width: 360px;
@@ -149,13 +150,13 @@
             max-height: 190px;
             margin-bottom: 15px;
         }
-    
+
         .card_carousel {
             font-size: 3px;
             align-self: center;
             margin-bottom: 22px;
         }
-    
+
         .card_header {
             font-size: 25px;
             font-weight: 400;
@@ -205,10 +206,10 @@
             }
     }
 }
-  
+
 @media only screen and (min-width: 1200px) {
     .card_conteiner {
         grid-template-columns: 1fr 1fr 1fr;
         width: 1170px;
-    }  
+    }
 }

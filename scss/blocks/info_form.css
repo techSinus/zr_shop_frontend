@@ -1,0 +1,133 @@
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+  .pers_info_section {
+    margin: auto;
+    width: 80%;
+    margin-bottom: 60px;
+  }
+  .info_form {
+    margin-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .pers_info_section {
+    margin: auto;
+    width: 560px;
+    margin-bottom: 60px;
+  }
+  .info_form {
+    margin-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+  }
+  .info_form .first_col {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+  .info_form .second_col {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+}
+@media only screen and (min-width: 920px) {
+  .pers_info_section {
+    margin: auto;
+    width: 800px;
+    margin-bottom: 60px;
+  }
+}
+.input_data {
+  padding: 10px;
+  background-color: #F5E7DF;
+  width: 100%;
+  font-size: 13px;
+  letter-spacing: 1.3px;
+  font-family: "Oswald", sans-serif;
+}
+
+.input_data::-webkit-input-placeholder {
+  font-size: inherit;
+  letter-spacing: inherit;
+  text-transform: uppercase;
+  color: black;
+}
+
+.input_data::-moz-placeholder {
+  font-size: inherit;
+  letter-spacing: inherit;
+  text-transform: uppercase;
+  color: black;
+}
+
+.input_data:-ms-input-placeholder {
+  font-size: inherit;
+  letter-spacing: inherit;
+  text-transform: uppercase;
+  color: black;
+}
+
+.input_data::-ms-input-placeholder {
+  font-size: inherit;
+  letter-spacing: inherit;
+  text-transform: uppercase;
+  color: black;
+}
+
+.input_data::placeholder {
+  font-size: inherit;
+  letter-spacing: inherit;
+  text-transform: uppercase;
+  color: black;
+}
+
+.gender-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.gender-container .gender-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  background-color: #F5E7DF;
+  margin-right: 20px;
+  padding: 14px;
+}
+.gender-container .gender-label .gender-input {
+  display: none;
+}
+.gender-container .gender-label .gender-input:checked + .gender-label {
+  background-color: red;
+  color: blue;
+}
+.gender-container .gender-label .gender-input:focus + .gender-label {
+  background-color: red;
+  color: black;
+}
