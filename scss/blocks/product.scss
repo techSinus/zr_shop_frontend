@@ -1,358 +1,368 @@
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-    .product_cont {
-        //width: 80%;
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+
+    .product_cart {
         display: block;
-
-        .product_cart {
-            display: block;
-            padding: 20px;
-            width: 320px;
-        }
+        margin: 0 auto;
     }
 
-    .clothes_img {
-        width: 233px;
-        height: 223px;
+    .product_card {
+        padding: 20px;
     }
 
-    .description {
-        //width: 45%;
-        padding-top: 32px;
-        font-size: 22px;
 
-        .description_title {
-            margin-bottom: 20px;
-        }
 
-        .description_text {
-            margin-top: 15px;
-            margin-bottom: 20px;
-        }
+    .descr_section {
+        width: 100%;
 
-        .features {
-            display: grid;
-            gap: 10px;
+        //Размеры шрифтов
+
+        .descr_cont {
+            .description_title {
+                margin-top: 10px;
+                font-size: 18px;
+                letter-spacing: 3px;
+            }
+
+            .description_text {
+                font-size: 15px;
+                letter-spacing: 2.2px;
+            }
 
             .features_text {
-                margin-left: 20px;
-                font-size: 20px;
+                font-size: 15px;
+                letter-spacing: 2.2px;
             }
         }
+
+        .add_cont {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .product_price {
+                font-size: 20px;
+                letter-spacing: 2.8px;
+            }
+
+            .product_cu {
+                font-size: 13px;
+                letter-spacing: 2.2px;
+            }
+
+            .button_add {
+                width: 70%;
+                font-size: 18px;
+                letter-spacing: 2.2px;
+            }
+        }
+
     }
 
-    .add_cont {
-        margin-top: 20px;
-        justify-content: space-between;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .product_card {
+        display: flex;
+        padding: 20px;
+    }
+
+    .clothes {
+        width: 50%;
+        //        background-color: red;
+        //        padding:10px;
+    }
+
+    .descr_section {
+        width: 50%;
+        margin-left: 20px;
+
+        //Размеры шрифтов
+        .descr_cont {
+            .description_title {
+                font-size: 20px;
+                letter-spacing: 3px;
+            }
+
+            .description_text {
+                font-size: 15px;
+                letter-spacing: 2.2px;
+            }
+
+            .features_text {
+                font-size: 15px;
+                letter-spacing: 2.2px;
+            }
+        }
 
 
-        .product_price {
-            font-size: 28px;
-            letter-spacing: 4px;
+        .add_cont {
+            .product_price {
+                font-size: 20px;
+                letter-spacing: 2.8px;
+            }
 
             .product_cu {
                 font-size: 16px;
+                letter-spacing: 2.2px;
             }
-        }
 
-        .button_add {
-            font-size: 18px;
-        }
-    }
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1023px) {
-    .product_main {
-        .product_cont {
-            .product_cart {
-                display: flex;
-                padding-bottom: 20px;
-
-                .clothes {
-                    padding-top: 32px;
-
-                    .clothes_img {
-                        width: 273px;
-                        height: 263px;
-                        margin-top: auto;
-                    }
-                }
-
-                .description {
-                    width: 45%;
-                    padding-top: 32px;
-                    font-size: 18px;
-
-                    .description_title {
-                        margin-bottom: 20px;
-                    }
-
-                    .description_text {
-                        margin-top: 15px;
-                        margin-bottom: 20px;
-                    }
-
-                    .features {
-                        display: grid;
-                        gap: 10px;
-
-                        .features_text {
-                            margin-left: 20px;
-                        }
-                    }
-                }
-
-                .add_cont {
-                    margin-top: 20px;
-                    justify-content: flex-start;
-
-                    .product_price {
-                        font-size: 22px;
-                        letter-spacing: 4px;
-
-                        .product_cu {
-                            font-size: 16px;
-                        }
-                    }
-
-                    .button_add {
-                        width: 170px;
-                        font-size: 20px;
-                    }
-                }
+            .button_add {
+                width: 60%;
+                font-size: 20px;
+                letter-spacing: 2.2px;
             }
         }
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
-    .product_main {
-        .product_cont {
-            .product_cart {
-                display: flex;
-                padding: 20px;
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .product_card {
+        display: flex;
+        padding: 20px;
+    }
 
-                .clothes {
-                    padding-top: 32px;
+    .descr_section {
+        width: 50%;
+        margin-left: 20px;
 
-                    .clothes_img {
-                        width: 333px;
-                        height: 323px;
-                        margin-top: auto;
-                    }
-                }
+        //Размеры шрифтов
+        .descr_cont {
+            .description_title {
+                font-size: 24px;
+                letter-spacing: 3.2px;
+            }
 
-                .description {
-                    padding-top: 32px;
-                    font-size: 24px;
+            .description_text {
+                font-size: 20px;
+                letter-spacing: 2.4px;
+            }
 
-                    .features {
-                        display: grid;
-                        gap: 20px;
+            .features_text {
+                font-size: 20px;
+                letter-spacing: 2.4px;
+            }
+        }
 
-                        .features_text {
-                            margin-left: 20px;
-                        }
-                    }
-                }
 
-                .add_cont {
-                    display: flex;
-                    margin-top: 25px;
-                    justify-content: flex-start;
+        .add_cont {
+            .product_price {
+                font-size: 24px;
+                letter-spacing: 3px;
+            }
 
-                    .product_price {
-                        font-size: 40px;
+            .product_cu {
+                font-size: 18px;
+                letter-spacing: 2.4px;
+            }
 
-                        .product_cu {
-                            color: #000;
-                            font-size: 15px;
-                            letter-spacing: 2.5px;
-                        }
-                    }
+            .button_add {
+                width:50%;
+                font-size: 24px;
+                letter-spacing: 2.4px;
+            }
+        }
 
-                    .button_add {
-                        margin-left: 25px;
-                    }
-                }
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+    .product_card {
+        display: flex;
+        padding: 40px;
+    }
+
+    .descr_section {
+        width: 50%;
+        margin-left: 40px;
+
+        .descr_cont {
+            .description_title {
+                font-size: 26px;
+                letter-spacing: 3.2px;
+            }
+
+            .description_text {
+                font-size: 20px;
+                letter-spacing: 2.4px;
+            }
+
+            .features_text {
+                font-size: 20px;
+                letter-spacing: 2.4px;
+            }
+        }
+
+
+        .add_cont {
+            .product_price {
+                font-size: 26px;
+                letter-spacing: 3px;
+            }
+
+            .product_cu {
+                font-size: 18px;
+                letter-spacing: 2.4px;
+            }
+
+            .button_add {
+                width:50%;
+                font-size: 26px;
+                letter-spacing: 2.4px;
             }
         }
     }
 }
 
 @media only screen and (min-width: 1200px) {
-    .product_main {
-        .product_cont {
-            .product_cart {
-                display: flex;
-                padding-bottom: 40px;
+    .product_card {
+        display: flex;
+        padding: 40px;
+    }
 
-                .clothes {
-                    padding-top: 32px;
+    .descr_section {
+        width: 50%;
 
-                    .clothes_img {
-                        width: 433px;
-                        height: 423px;
-                    }
-                }
-
+        .descr_cont {
+            .description_title {
+                font-size: 26px;
+                letter-spacing: 3.2px;
             }
 
-            .description {
-                padding-top: 32px;
-                font-size: 24px;
-                justify-content: center;
-
-                .features {
-                    display: grid;
-
-                    .features_text {
-                        margin-left: 20px;
-                    }
-                }
+            .description_text {
+                font-size: 20px;
+                letter-spacing: 2.4px;
             }
 
-            .add_cont {
-                display: flex;
-                margin-top: 30px;
-                justify-content: flex-start;
-
-                .product_price {
-                    font-size: 40px;
-
-                    .product_cu {
-                        color: #000;
-                        font-size: 15px;
-                        letter-spacing: 2.5px;
-                    }
-                }
-
-                .button_add {
-                    margin-left: 25px;
-                }
+            .features_text {
+                font-size: 20px;
+                letter-spacing: 2.4px;
             }
         }
+
+
+        .add_cont {
+            .product_price {
+                font-size: 29px;
+                letter-spacing: 3px;
+            }
+
+            .product_cu {
+                font-size: 20px;
+                letter-spacing: 2.4px;
+            }
+
+            .button_add {
+                width:50%;
+                font-size: 20px;
+                letter-spacing: 2.4px;
+            }
+        }
+
     }
 }
 
-.product_main {
+.product_cont {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.path {
+    margin-bottom: 30px;
+    color: #7E7E7E;
+    text-decoration: underline;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.product_card {
+    background-color: #F5E7DF;
+    justify-content: space-around;
+}
+
+.clothes {
     display: flex;
-    justify-content: center;
-    padding: 45px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 
-    .product_cont {
-        //width: 80%;
-        display: block;
+    .clothes_header {
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 2.4px;
 
-        .product_cart {
-            background: rgba(251, 206, 177, 0.30);
-            //height: 576px;
-            //display: flex;
-            //padding: 40px 147px;
+        font-weight: 400;
+        line-height: 35px;
+    }
 
-            justify-content: space-around;
+    .clothes_size {
 
-            .clothes {
-                text-align: center;
-                color: #000;
-                font-size: 24px;
-                font-style: normal;
+        .button_size {
+            padding: 5px 13px;
+            background-color: rgba(251, 206, 177, 0.50);
+        }
+
+    }
+}
+
+.descr_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .descr_cont {
+
+        .description_title {
+            text-transform: uppercase;
+            font-weight: 400;
+            line-height: 35px;
+        }
+
+        .description_text {
+            text-transform: uppercase;
+            color: gray;
+            font-weight: 400;
+            line-height: 35px;
+        }
+
+        .features {
+            padding-left: 20px;
+
+            .features_text {
+                text-transform: uppercase;
+                color: gray;
                 font-weight: 400;
-                line-height: 35px;
-                /* 145.833% */
-                letter-spacing: 2.4px;
-                //padding-top: 32px;
-
-
-
-                .clothes_header {
-                    margin-top: 10px;
-                }
-
-                .size_cont {
-                    margin-top: 10px;
-                    display: flex;
-                    justify-content: center;
-
-                    .clothes_size {
-                        background: rgba(251, 206, 177, 0.50);
-                        display: flex;
-                        justify-content: space-around;
-                        width: 118px;
-                        height: 29px;
-
-                        .button_size {
-                            background-color: rgba(251, 206, 177, 0.50);
-                        }
-                    }
-                }
-
-            }
-
-            .description {
-                //width: 45%;
-                padding-top: 32px;
-                color: rgba(0, 0, 0, 0.50);
-                //font-size: 18px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 35px;
-                /* 145.833% */
-                letter-spacing: 2.4px;
-
-                .description_title {
-                    color: #000;
-                    margin-bottom: 20px;
-                }
-
-                .description_text {
-                    margin-top: 15px;
-                    margin-bottom: 20px;
-                }
-
-                .features {
-                    display: grid;
-                    gap: 10px;
-
-                    .features_text {
-                        margin-left: 20px;
-                    }
-                }
-            }
-
-            .add_cont {
-                display: flex;
-                margin-top: 20px;
-
-                .product_price {
-                    color: #000;
-                    //font-size: 22px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 35px;
-                    /* 87.5% */
-                    letter-spacing: 4px;
-                    padding-right: 20px;
-
-                    .product_cu {
-                        color: #000;
-                        font-size: 16px;
-                        letter-spacing: 2.5px;
-                    }
-                }
-
-                .button_add {
-                    //width: 150px;
-                    //height: 40px;
-                    background: #FFF;
-                    color: #000;
-                    //font-size: 15px;
-                    padding: 10px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 35px;
-                    letter-spacing: 2.5px;
-                }
+                margin-bottom: 10px;
             }
         }
+    }
+
+    .add_cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 28%;
+
+
+        .product_price {
+            font-weight: 400;
+            line-height: 35px;
+
+            .product_cu {
+                text-transform: uppercase;
+                font-weight: 400;
+                margin-bottom: 10px;
+            }
+        }
+
+        .button_add {
+            text-transform: uppercase;
+            font-weight: 400;
+            padding: 10px;
+        }
+
     }
 }
