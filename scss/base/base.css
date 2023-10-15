@@ -24,8 +24,9 @@ img {
   padding: 100px 100px;
 }
 
-hr.solid {
+.solid {
   border-top: 2px solid #D9D9D9;
+  padding-bottom: 45px;
 }
 
 .cover {

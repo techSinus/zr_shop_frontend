@@ -44,8 +44,9 @@ img {
   padding: 100px 100px;
 }
 
-hr.solid {
+.solid {
   border-top: 2px solid #D9D9D9;
+  padding-bottom: 45px;
 }
 
 .cover {
@@ -65,7 +66,6 @@ button {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 70px;
   }
   .card_conteiner {
     display: -ms-grid;
@@ -362,8 +362,6 @@ button {
   }
 }
 .cart-page {
-  padding-top: 70px;
-  padding-bottom: 70px;
   margin: auto;
 }
 .cart-page .banner_section {
@@ -385,6 +383,7 @@ button {
 .cart-page .strip {
   background-color: lightgray;
   width: 100%;
+  margin-bottom: 70px;
 }
 .cart-page .purchase_section {
   background-color: white;
@@ -623,6 +622,10 @@ span.cu {
     margin-bottom: 60px;
   }
 }
+.pers_info_section {
+  margin-top: 25px;
+}
+
 .input_data {
   padding: 10px;
   background-color: #F5E7DF;

@@ -59,6 +59,10 @@
     margin-bottom: 60px;
   }
 }
+.pers_info_section {
+  margin-top: 25px;
+}
+
 .input_data {
   padding: 10px;
   background-color: #F5E7DF;

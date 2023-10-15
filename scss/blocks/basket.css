@@ -80,8 +80,6 @@
   }
 }
 .cart-page {
-  padding-top: 70px;
-  padding-bottom: 70px;
   margin: auto;
 }
 .cart-page .banner_section {
@@ -103,6 +101,7 @@
 .cart-page .strip {
   background-color: lightgray;
   width: 100%;
+  margin-bottom: 70px;
 }
 .cart-page .purchase_section {
   background-color: white;
