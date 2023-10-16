@@ -123,13 +123,6 @@
   font-weight: 400;
 }
 
-.param {
-  font-size: 18px;
-  font-weight: 400;
-  color: grey;
-  letter-spacing: 1.5px;
-}
-
 .name {
   margin-bottom: 25px;
   font-size: 18px;
@@ -193,11 +186,20 @@ span.cu {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  font-size: 0;
 }
-.basket-card .characteristic {
+.basket-card .parameter .param {
+  font-size: 18px;
+  font-weight: 400;
+  color: grey;
+  letter-spacing: 1.5px;
+}
+.basket-card .parameter .characteristic {
   color: black;
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 0;
+  font-size: 18px;
 }
 .basket-card .redaction_menu {
   display: -webkit-box;

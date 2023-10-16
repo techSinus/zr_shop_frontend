@@ -1,4 +1,7 @@
 @media only screen and (min-width: 320px) and (max-width: 599px) {
+    .product_cont {
+        width: 80%;
+    }
 
     .product_cart {
         display: block;
@@ -62,6 +65,10 @@
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+    .product_cont {
+        width: 80%;
+    }
+
     .product_card {
         display: flex;
         padding: 20px;
@@ -116,7 +123,64 @@
     }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 815px) {
+    .product_cont {
+        width: 80%;
+    }
+
+    .product_card {
+        display: flex;
+        padding: 20px;
+    }
+
+    .descr_section {
+        width: 50%;
+        margin-left: 20px;
+
+        //Размеры шрифтов
+        .descr_cont {
+            .description_title {
+                font-size: 20px;
+                letter-spacing: 3px;
+            }
+
+            .description_text {
+                font-size: 15px;
+                letter-spacing: 2.2px;
+            }
+
+            .features_text {
+                font-size: 15px;
+                letter-spacing: 2.2px;
+            }
+        }
+
+
+        .add_cont {
+            .product_price {
+                font-size: 20px;
+                letter-spacing: 2.8px;
+            }
+
+            .product_cu {
+                font-size: 16px;
+                letter-spacing: 2.2px;
+            }
+
+            .button_add {
+                width: 60%;
+                font-size: 20px;
+                letter-spacing: 2.2px;
+            }
+        }
+
+    }
+}
+@media only screen and (min-width: 816px) and (max-width: 1024px) {
+    .product_cont {
+        width: 80%;
+    }
+
     .product_card {
         display: flex;
         padding: 20px;
@@ -157,7 +221,7 @@
             }
 
             .button_add {
-                width:50%;
+                width: 50%;
                 font-size: 24px;
                 letter-spacing: 2.4px;
             }
@@ -167,6 +231,10 @@
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1199px) {
+    .product_cont {
+        width: 70%;
+    }
+
     .product_card {
         display: flex;
         padding: 40px;
@@ -206,7 +274,7 @@
             }
 
             .button_add {
-                width:50%;
+                width: 50%;
                 font-size: 26px;
                 letter-spacing: 2.4px;
             }
@@ -215,6 +283,10 @@
 }
 
 @media only screen and (min-width: 1200px) {
+    .product_cont {
+        width: 70%;
+    }
+
     .product_card {
         display: flex;
         padding: 40px;
@@ -253,7 +325,7 @@
             }
 
             .button_add {
-                width:50%;
+                width: 50%;
                 font-size: 20px;
                 letter-spacing: 2.4px;
             }
@@ -263,19 +335,22 @@
 }
 
 .product_cont {
-    padding-top: 70px;
-    padding-bottom: 70px;
-    width: 70%;
+    //width: 70%;
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .path {
     margin-bottom: 30px;
     color: #7E7E7E;
-    text-decoration: underline;
+
     font-size: 20px;
     letter-spacing: 2px;
+
+    .path_link {
+        text-decoration: underline;
+    }
 }
 
 .product_card {

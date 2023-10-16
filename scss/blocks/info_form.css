@@ -72,35 +72,35 @@
   font-size: inherit;
   letter-spacing: inherit;
   text-transform: uppercase;
-  color: black;
+  color: grey;
 }
 
 .input_data::-moz-placeholder {
   font-size: inherit;
   letter-spacing: inherit;
   text-transform: uppercase;
-  color: black;
+  color: grey;
 }
 
 .input_data:-ms-input-placeholder {
   font-size: inherit;
   letter-spacing: inherit;
   text-transform: uppercase;
-  color: black;
+  color: grey;
 }
 
 .input_data::-ms-input-placeholder {
   font-size: inherit;
   letter-spacing: inherit;
   text-transform: uppercase;
-  color: black;
+  color: grey;
 }
 
 .input_data::placeholder {
   font-size: inherit;
   letter-spacing: inherit;
   text-transform: uppercase;
-  color: black;
+  color: grey;
 }
 
 .gender-container {
