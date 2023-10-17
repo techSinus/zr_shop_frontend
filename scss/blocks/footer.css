@@ -1,17 +1,26 @@
 @media only screen and (min-width: 320px) {
   .index_footer {
     background: #202020;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .index_footer .info_cont {
     display: block;
     width: 320px;
   }
   .index_footer .conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-top: 35px;
   }
   .index_footer .conteiner .logo_cont .logo_header {
@@ -25,8 +34,12 @@
   }
   .index_footer .conteiner .logo_cont .logo_img_cont {
     padding-top: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .index_footer .conteiner .logo_cont .logo_img_cont .logo_img {
     width: 123px;
@@ -38,8 +51,11 @@
     padding-top: 35px;
   }
   .index_footer .conteiner .social_cont .social_icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     padding-top: 35px;
   }
   .index_footer .conteiner .social_cont .social_icons .social_icon {
@@ -50,21 +66,22 @@
     padding-top: 35px;
   }
   .index_footer .conteiner .pay_cont .pay_icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     padding-top: 35px;
   }
   .index_footer .conteiner .pay_cont .pay_icons .icon_viza {
-    width: 38px;
-    height: 27px;
+    width: 50px;
   }
   .index_footer .conteiner .pay_cont .pay_icons .icon_world {
-    width: 84px;
-    height: 27px;
+    padding: 10px;
+    width: 100px;
   }
   .index_footer .conteiner .pay_cont .pay_icons .icon_master {
-    width: 44px;
-    height: 27px;
+    width: 50px;
   }
   .index_footer .conteiner .footer_header {
     color: rgba(255, 255, 255, 0.5);
@@ -98,8 +115,12 @@
     padding-top: 0;
   }
   .index_footer .info_cont .copy_cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-top: 130px;
   }
 }
@@ -110,4 +131,4 @@
   .index_footer .info_cont .pay_cont {
     padding-top: 0;
   }
-}/*# sourceMappingURL=footer.css.map */
+}
