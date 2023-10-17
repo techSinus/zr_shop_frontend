@@ -6,14 +6,9 @@
   }
   .info_form {
     margin-bottom: 40px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 30px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
 }
 @media only screen and (min-width: 600px) {
@@ -24,31 +19,19 @@
   }
   .info_form {
     margin-bottom: 40px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 30px;
   }
   .info_form .first_col {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     gap: 10px;
   }
   .info_form .second_col {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     gap: 10px;
   }
 }
@@ -72,28 +55,7 @@
   font-family: "Oswald", sans-serif;
 }
 
-.input_data::-webkit-input-placeholder {
-  font-size: inherit;
-  letter-spacing: inherit;
-  text-transform: uppercase;
-  color: grey;
-}
-
 .input_data::-moz-placeholder {
-  font-size: inherit;
-  letter-spacing: inherit;
-  text-transform: uppercase;
-  color: grey;
-}
-
-.input_data:-ms-input-placeholder {
-  font-size: inherit;
-  letter-spacing: inherit;
-  text-transform: uppercase;
-  color: grey;
-}
-
-.input_data::-ms-input-placeholder {
   font-size: inherit;
   letter-spacing: inherit;
   text-transform: uppercase;
@@ -108,17 +70,11 @@
 }
 
 .gender-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .gender-container .gender-label {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   cursor: pointer;
   background-color: #F5E7DF;
   margin-right: 20px;
@@ -134,4 +90,4 @@
 .gender-container .gender-label .gender-input:focus + .gender-label {
   background-color: red;
   color: black;
-}
+}/*# sourceMappingURL=info_form.css.map */
