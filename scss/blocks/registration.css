@@ -1,12 +1,9 @@
 .reg_banner_section {
   margin-bottom: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+  justify-content: space-between;
 }
 
 .close_img {
-  width: 50px;
-  padding: 10px;
-  background-color: red;
-}
+  width: 30px;
+}/*# sourceMappingURL=registration.css.map */
