@@ -1395,3 +1395,17 @@ span.cu {
   font-weight: 400;
   padding: 10px;
 }
+
+.reg_banner_section {
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.close_img {
+  width: 30px;
+}
