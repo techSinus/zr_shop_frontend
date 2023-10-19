@@ -21,7 +21,8 @@ img {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  padding: 100px 100px;
+  padding-top: 30px;
+  padding-bottom: 48px;
 }
 
 .solid {
@@ -31,6 +32,7 @@ img {
 
 .cover {
   margin-bottom: 30px;
+  width: 100%;
 }
 
 button {

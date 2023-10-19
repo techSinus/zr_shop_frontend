@@ -5,7 +5,7 @@
         justify-content: center;
         .info_cont {
             display: block;
-            width: 320px;
+            width: 310px;
         }
 
         .conteiner {
@@ -42,11 +42,10 @@
                 }
             }
             .social_cont {
-                padding-top: 35px;
                 .social_icons {
                     display: flex;
                     justify-content: space-around;
-                    padding-top: 35px;
+                    padding-top: 15px;
                     .social_icon {
                         width: 35px;
                         height: 35px;
@@ -54,11 +53,10 @@
                 }
             }
             .pay_cont {
-                padding-top: 35px;
                 .pay_icons {
                     display: flex;
                     justify-content: space-around;
-                    padding-top: 35px;
+                    padding-top: 15px;
                     .icon_viza {
                         width: 50px;
                         //height: 50px;

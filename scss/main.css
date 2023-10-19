@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -38,7 +37,8 @@ img {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  padding: 100px 100px;
+  padding-top: 30px;
+  padding-bottom: 48px;
 }
 
 .solid {
@@ -48,6 +48,7 @@ img {
 
 .cover {
   margin-bottom: 30px;
+  width: 100%;
 }
 
 button {
@@ -910,7 +911,7 @@ span.cu {
   }
   .index_footer .info_cont {
     display: block;
-    width: 320px;
+    width: 310px;
   }
   .index_footer .conteiner {
     display: -webkit-box;
@@ -947,23 +948,17 @@ span.cu {
     margin-left: auto;
     margin-right: auto;
   }
-  .index_footer .conteiner .social_cont {
-    padding-top: 35px;
-  }
   .index_footer .conteiner .social_cont .social_icons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    padding-top: 35px;
+    padding-top: 15px;
   }
   .index_footer .conteiner .social_cont .social_icons .social_icon {
     width: 35px;
     height: 35px;
-  }
-  .index_footer .conteiner .pay_cont {
-    padding-top: 35px;
   }
   .index_footer .conteiner .pay_cont .pay_icons {
     display: -webkit-box;
@@ -971,7 +966,7 @@ span.cu {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    padding-top: 35px;
+    padding-top: 15px;
   }
   .index_footer .conteiner .pay_cont .pay_icons .icon_viza {
     width: 50px;
@@ -1402,9 +1397,9 @@ span.cu {
 }
 
 .link_back {
-  position: absolute; /* Устанавливаем абсолютное позиционирование */
-  top: 10px; /* Отступ от верхнего края */
-  right: 10px; /* Отступ от правого края */
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 .close_img {
