@@ -1,7 +1,11 @@
 .reg_banner_section {
     margin-bottom: 50px;
-    display: flex;
-    justify-content: space-between;
+}
+
+.link_back {
+    position: absolute;  /* Устанавливаем абсолютное позиционирование */
+    top: 10px;  /* Отступ от верхнего края */
+    right: 10px;  /* Отступ от правого края */
 }
 
 .close_img{

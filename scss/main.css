@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1398,12 +1399,12 @@ span.cu {
 
 .reg_banner_section {
   margin-bottom: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+}
+
+.link_back {
+  position: absolute; /* Устанавливаем абсолютное позиционирование */
+  top: 10px; /* Отступ от верхнего края */
+  right: 10px; /* Отступ от правого края */
 }
 
 .close_img {
