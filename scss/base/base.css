@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -18,9 +17,7 @@ img {
 }
 
 .main-page {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
   padding-top: 30px;
   padding-bottom: 48px;
 }
@@ -38,4 +35,4 @@ img {
 button {
   cursor: pointer;
   font-family: "Oswald", sans-serif;
-}
+}/*# sourceMappingURL=base.css.map */
