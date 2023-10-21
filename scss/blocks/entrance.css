@@ -1,38 +1,51 @@
 @charset "UTF-8";
-* {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+  .container {
+    width: 80%;
+  }
+  .half {
+    width: 100%;
+  }
+  .half.bg {
+    display: none;
+  }
 }
-
-body {
-  font-family: "Lato", sans-serif;
+@media only screen and (min-width: 751px) {
+  .container {
+    width: 700px;
+    height: 500px;
+  }
+  .half {
+    float: left;
+    width: 50%;
+  }
+  .half.bg {
+    display: block;
+  }
+}
+.entrance {
   background-color: #f8f8f8;
 }
-body .container {
+.entrance .container {
   position: absolute;
   overflow: hidden;
-  width: 700px;
-  height: 500px;
   background-color: #ffffff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
-body .container .half {
-  float: left;
-  width: 50%;
+.entrance .container .half {
   height: 100%;
   padding: 58px 40px 0;
 }
-body .container .half.bg {
+.entrance .container .half.bg {
   background-size: 400px;
-  background-repeat: no-repeat;
   padding: 0px;
 }
-body .container h1 {
+.entrance .container h1 {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 23px;
@@ -42,87 +55,67 @@ body .container h1 {
   text-transform: uppercase;
   color: #263238;
 }
-body .container .tabs {
-  width: 100%;
-  margin-bottom: 29px;
-  border-bottom: 1px solid #d9d9d9;
-}
-body .container .tabs .tab {
-  display: inline-block;
-  margin-bottom: -1px;
-  padding: 20px 15px 10px;
-  cursor: pointer;
-  letter-spacing: 0;
-  border-bottom: 1px solid #d9d9d9;
-  -moz-user-select: -moz-none;
-  -webkit-user-select: none;
-  user-select: none;
-  transition: all 0.1s ease-in-out;
-}
-body .container .tabs .tab a {
-  font-size: 11px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #d9d9d9;
-  transition: all 0.1s ease-in-out;
-}
-body .container .tabs .tab:hover a {
-  color: #263238;
-}
-body .container .tabs .tab.active {
-  border-bottom: 1px solid #263238;
-}
-body .container .tabs .tab.active a {
-  color: #263238;
-}
-body .container .content {
+.entrance .container .content {
   margin-top: 50px;
 }
-body .container .content form {
+.entrance .container .content form {
   position: relative;
   height: 287px;
 }
-body .container .content label {
+.entrance .container .content label {
   font-size: 12px;
   color: #263238;
   -moz-user-select: -moz-none;
+  -ms-user-select: none;
   -webkit-user-select: none;
   user-select: none;
 }
-body .container .content label:first-of-type {
+.entrance .container .content label:first-of-type {
+  -webkit-animation: slideIn 0.4s cubic-bezier(0.37, 0.82, 0.2, 1);
   animation: slideIn 0.4s cubic-bezier(0.37, 0.82, 0.2, 1);
 }
-body .container .content label:nth-of-type(2) {
+.entrance .container .content label:nth-of-type(2) {
+  -webkit-animation: slideIn 0.5s cubic-bezier(0.37, 0.82, 0.2, 1);
   animation: slideIn 0.5s cubic-bezier(0.37, 0.82, 0.2, 1);
 }
-body .container .content label:nth-of-type(3) {
+.entrance .container .content label:nth-of-type(3) {
+  -webkit-animation: slideIn 0.6s cubic-bezier(0.37, 0.82, 0.2, 1);
   animation: slideIn 0.6s cubic-bezier(0.37, 0.82, 0.2, 1);
 }
-body .container .content label:not([for=remember]) {
+.entrance .container .content label:not([for=remember]) {
   display: none;
 }
-body .container .content input:first-of-type {
+.entrance .container .content input:first-of-type {
+  -webkit-animation: slideIn 0.4s cubic-bezier(0.37, 0.82, 0.2, 1);
   animation: slideIn 0.4s cubic-bezier(0.37, 0.82, 0.2, 1);
 }
-body .container .content input:nth-of-type(2) {
+.entrance .container .content input:nth-of-type(2) {
+  -webkit-animation: slideIn 0.5s cubic-bezier(0.37, 0.82, 0.2, 1);
   animation: slideIn 0.5s cubic-bezier(0.37, 0.82, 0.2, 1);
 }
-body .container .content input:nth-of-type(3) {
+.entrance .container .content input:nth-of-type(3) {
+  -webkit-animation: slideIn 0.6s cubic-bezier(0.37, 0.82, 0.2, 1);
   animation: slideIn 0.6s cubic-bezier(0.37, 0.82, 0.2, 1);
 }
-body .container .content input:focus {
+.entrance .container .content input:focus {
   outline: none;
 }
-body .container .content .more:first-of-type {
+.entrance .container .content .more {
+  margin-bottom: 25px;
+}
+.entrance .container .content .more:first-of-type {
+  -webkit-animation: slideIn 0.4s cubic-bezier(0.37, 0.82, 0.2, 1);
   animation: slideIn 0.4s cubic-bezier(0.37, 0.82, 0.2, 1);
 }
-body .container .content .more:nth-of-type(2) {
+.entrance .container .content .more:nth-of-type(2) {
+  -webkit-animation: slideIn 0.5s cubic-bezier(0.37, 0.82, 0.2, 1);
   animation: slideIn 0.5s cubic-bezier(0.37, 0.82, 0.2, 1);
 }
-body .container .content .more:nth-of-type(3) {
+.entrance .container .content .more:nth-of-type(3) {
+  -webkit-animation: slideIn 0.6s cubic-bezier(0.37, 0.82, 0.2, 1);
   animation: slideIn 0.6s cubic-bezier(0.37, 0.82, 0.2, 1);
 }
-body .container .content input.inpt {
+.entrance .container .content input.inpt {
   font-size: 14px;
   display: block;
   width: 100%;
@@ -131,34 +124,31 @@ body .container .content input.inpt {
   padding: 16px 13px;
   color: #999999;
   border: 1px solid #d9d9d9;
-  background: transparent;
+  background-color: #F5E7DF;
   border-radius: 2px;
 }
-body .container .content input.inpt::-webkit-input-placeholder {
+.entrance .container .content input.inpt::-webkit-input-placeholder {
   font-size: 14px;
   color: #999999;
-  font-family: "Lato", sans-serif;
 }
-body .container .content input.inpt:-moz-placeholder {
+.entrance .container .content input.inpt:-moz-placeholder {
   font-size: 14px;
   color: #999999;
-  font-family: "Lato", sans-serif;
 }
-body .container .content input.inpt::-moz-placeholder {
+.entrance .container .content input.inpt::-moz-placeholder {
   font-size: 14px;
   color: #999999;
-  font-family: "Lato", sans-serif;
 }
-body .container .content input.inpt:-ms-input-placeholder {
+.entrance .container .content input.inpt:-ms-input-placeholder {
   font-size: 14px;
   color: #999999;
-  font-family: "Lato", sans-serif;
 }
-body .container .content input.inpt:focus {
+.entrance .container .content input.inpt:focus {
   border-color: #999999;
 }
-body .container .content input.submit {
-  font-size: 12px;
+.entrance .container .content input.submit {
+  font-family: "Oswald", sans-serif;
+  font-size: 18;
   line-height: 42px;
   display: block;
   width: 100%;
@@ -166,17 +156,18 @@ body .container .content input.submit {
   cursor: pointer;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #263238;
+  color: #ffffff;
   border: 1px solid #263238;
-  background: transparent;
+  background-color: black;
   border-radius: 2px;
 }
-body .container .content input.submit:hover {
-  background-color: #263238;
+.entrance .container .content input.submit:hover {
+  background-color: gray;
   color: #ffffff;
+  -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-body .container .content .checkbox {
+.entrance .container .content .checkbox {
   margin-top: 4px;
   overflow: hidden;
   clip: rect(0 0 0 0);
@@ -188,15 +179,13 @@ body .container .content .checkbox {
   opacity: 0;
   visibility: hidden;
 }
-body .container .content .checkbox + label {
+.entrance .container .content .checkbox + label {
   vertical-align: middle;
   display: inline-block;
-  width: 50%;
 }
-body .container .content .checkbox + label:before {
+.entrance .container .content .checkbox + label:before {
   content: "\a";
   color: #999999;
-  font-family: Verdana;
   font-weight: bold;
   font-size: 8px;
   line-height: 10px;
@@ -211,15 +200,15 @@ body .container .content .checkbox + label:before {
   height: 11px;
   margin: -2px 8px 0 0;
 }
-body .container .content .checkbox:checked + label:before {
+.entrance .container .content .checkbox:checked + label:before {
   content: "✓";
 }
-body .container .content .submit-wrap {
+.entrance .container .content .submit-wrap {
   position: absolute;
   bottom: 0;
   width: 100%;
 }
-body .container .content .submit-wrap a {
+.entrance .container .content .submit-wrap a {
   font-size: 12px;
   display: block;
   margin-top: 20px;
@@ -227,26 +216,6 @@ body .container .content .submit-wrap a {
   text-decoration: none;
   color: #999999;
 }
-body .container .content .submit-wrap a:hover {
+.entrance .container .content .submit-wrap a:hover {
   text-decoration: underline;
 }
-body .container .content .signup-cont {
-  display: none;
-}
-
-.credits {
-  display: block;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  color: #999999;
-  font-size: 14px;
-  margin: 0 10px 10px 0;
-}
-.credits a {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
-  color: inherit;
-  font-weight: 700;
-  text-decoration: none;
-}/*# sourceMappingURL=entrance.css.map */

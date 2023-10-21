@@ -52,7 +52,7 @@
 .dropdown-menu {
   display: none;
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 5%;
 }
 .dropdown-menu .option_list {
@@ -66,4 +66,4 @@
 .dropdown-menu .option_list .menu_option {
   margin-bottom: 20px;
   cursor: pointer;
-}/*# sourceMappingURL=menu.css.map */
+}
