@@ -124,14 +124,14 @@
   margin-right: 20px;
   padding: 14px;
 }
-.gender-container .gender-label .gender-input {
+.gender-container .gender-input {
   display: none;
 }
-.gender-container .gender-label .gender-input:checked + .gender-label {
-  background-color: red;
-  color: blue;
-}
-.gender-container .gender-label .gender-input:focus + .gender-label {
-  background-color: red;
+.gender-container .gender-input:hover + .gender-label {
+  background-color: #F7DCCB;
   color: black;
+}
+.gender-container .gender-input:checked + .gender-label {
+  background-color: black;
+  color: white;
 }

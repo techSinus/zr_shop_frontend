@@ -53,9 +53,10 @@
 }
 
 
-.pers_info_section{
+.pers_info_section {
     margin-top: 25px;
 }
+
 .input_data {
     padding: 10px;
     background-color: #F5E7DF;
@@ -76,29 +77,29 @@
 
 .gender-container {
     display: flex;
+
     .gender-label {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    background-color: #F5E7DF;
-    margin-right: 20px;
-    padding: 14px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        background-color: #F5E7DF;
+        margin-right: 20px;
+        padding: 14px;
 
-    .gender-input {
-        display: none;
-
-        &:checked + .gender-label {
-            background-color: red;
-                color: blue;
-        }
-
-        &:focus + .gender-label {
-            background-color: red;
-                color: black;
-        }
 
     }
-}
-}
+    .gender-input {
+            display: none;
 
+            &:hover + .gender-label{
+                background-color: #F7DCCB;
+                color: black;
+            }
 
+            &:checked + .gender-label {
+                background-color: black;
+                color: white;
+            }
+
+        }
+}
