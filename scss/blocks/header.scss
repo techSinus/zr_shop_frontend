@@ -81,13 +81,28 @@
         font-size: 20px;
         font-weight: bold;
       }
-
-    .link_cont {
-      padding-top: 27px;
-      .header_link_img {
-        width: 26px;
-        height: 25px;
+    
+    .card_head_cont {
+      width: 110px;
+      display: flex;
+      justify-content: space-between;
+      .link_cont {
+        padding-top: 27px;
+        .header_link_img {
+          width: 26px;
+          height: 25px;
+        }
       }
+    }
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .header {
+    .card_head_cont{
+      display: flex;
+      justify-content: space-between;
+      width: 150px;
     }
   }
 }
