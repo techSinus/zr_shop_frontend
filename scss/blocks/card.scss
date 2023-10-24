@@ -78,6 +78,7 @@
             margin-top: 20px;
             display: flex;
             justify-content: space-between;
+            text-align: center;
             .add-to-cart {
                 background-color: #fff;
                 color: #000;
@@ -217,12 +218,3 @@
     }
 }
 
-.main-body{
-	display: grid;
-	grid: [stack] 1fr/-webkit-min-content [stack] 1fr;
-	grid: [stack] 1fr/min-content [stack] 1fr;
-}
-
-.ultramain {
-    grid-area: stack;
-}

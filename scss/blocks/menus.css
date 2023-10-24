@@ -122,7 +122,7 @@ nav {
 
 
 .hamburger > svg > line {
-    stroke: black;
+    stroke: #F7DCCB;
 /*    stroke: var(--text);*/
     stroke-width: 7px;
     transition: stroke .25s ease

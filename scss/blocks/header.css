@@ -1,7 +1,6 @@
 @media only screen and (min-width: 320px) {
   .header {
     height: 150px;
-    background: #F2F2F2;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

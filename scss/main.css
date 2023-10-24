@@ -150,6 +150,7 @@ button {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    text-align: center;
   }
   .main-card .buttons .add-to-cart {
     background-color: #fff;
@@ -281,17 +282,6 @@ button {
     width: 1170px;
   }
 }
-.main-body {
-  display: -ms-grid;
-  display: grid;
-  grid: [stack] 1fr/-webkit-min-content [stack] 1fr;
-  grid: [stack] 1fr/min-content [stack] 1fr;
-}
-
-.ultramain {
-  grid-area: stack;
-}
-
 @media only screen and (min-width: 320px) and (max-width: 612px) {
   .basket-card {
     padding: 25px;
@@ -394,6 +384,7 @@ button {
 }
 .cart-page .strip {
   background-color: lightgray;
+  margin-bottom: 70px;
   width: 100%;
 }
 .cart-page .purchase_section {
@@ -549,6 +540,7 @@ span.cu {
 .total-price {
   font-size: 30px;
   letter-spacing: 3px;
+  background: #F2F2F2;
 }
 .total-price .cu {
   font-size: 20px;
@@ -715,7 +707,6 @@ span.cu {
 @media only screen and (min-width: 320px) {
   .header {
     height: 150px;
-    background: #F2F2F2;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

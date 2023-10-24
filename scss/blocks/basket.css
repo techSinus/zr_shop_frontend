@@ -100,6 +100,7 @@
 }
 .cart-page .strip {
   background-color: lightgray;
+  margin-bottom: 70px;
   width: 100%;
 }
 .cart-page .purchase_section {
@@ -255,6 +256,7 @@ span.cu {
 .total-price {
   font-size: 30px;
   letter-spacing: 3px;
+  background: #F2F2F2;
 }
 .total-price .cu {
   font-size: 20px;
