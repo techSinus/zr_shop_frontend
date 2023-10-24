@@ -95,12 +95,32 @@
     font-size: 20px;
     font-weight: bold;
   }
-  .header .link_cont {
+  .header .card_head_cont {
+    width: 110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header .card_head_cont .link_cont {
     padding-top: 27px;
   }
-  .header .link_cont .header_link_img {
+  .header .card_head_cont .link_cont .header_link_img {
     width: 26px;
     height: 25px;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .header .card_head_cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 150px;
   }
 }
 @media only screen and (min-width: 768px) {
