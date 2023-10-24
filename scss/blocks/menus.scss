@@ -1,0 +1,135 @@
+#sidenav-open {
+    $durartion: .6s;
+    $easeoutexpo: cubic-bezier(0.16, 1, 0.3, 1);
+    display: grid;
+    grid-template-columns: [nav] 2fr [escape] 1fr
+}
+
+@media {
+    #sidenav-open {
+        position: -webkit-sticky;
+        /*Отвечает за статичность мен.\ю*/
+        position: sticky;
+        top: 0;
+        max-height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        overflow: hidden auto;
+        -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
+        visibility: hidden;
+        transform: translateX(-110vw);
+        will-change: transform;
+        transition: transform $durartion $easeoutexpo, visibility 0s linear $durartion
+    }
+
+    #sidenav-open:target {
+        visibility: visible;
+        transform: translateX(0);
+        transition: transform $durartion $easeoutexpo
+    }
+}
+
+@media (prefers-reduced-motion:reduce) {
+    #sidenav-open {
+        $durartion: 1ms
+    }
+}
+
+#sidenav-button,
+#sidenav-close {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    touch-action: manipulation
+}
+
+
+
+nav {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-size: 1.25rem;
+    color: #e2e2e2;
+    color: var(--text)
+}
+
+
+
+@media {
+    nav {
+        background-color: rgba(0, 0, 0, 0.7);
+        box-shadow: 5px 0 40px rgba(0, 0, 0, .45);
+
+    }
+
+}
+
+
+
+.menu_option {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.option_list {
+    color: white;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    margin-top: 100px;
+}
+
+.hamburger {
+    --size: 4rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    place-content: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    -webkit-margin-start: -1rem;
+    margin-inline-start: -1rem;
+    block-size: var(--size);
+    inline-size: var(--size);
+    outline: none;
+    transition: border-color .25s ease, background-color .25s ease
+}
+
+.hamburger:hover {
+    border-color: rgba(255, 20, 146, .5);
+    border-color: hsl(var(--brandHSL)/50%)
+}
+
+
+.hamburger > svg > line {
+    stroke: #e2e2e2;
+    stroke: var(--text);
+    stroke-width: 7px;
+    transition: stroke .25s ease
+}
+
+aside > a {
+    outline-offset: -1px;
+    outline: 1px solid transparent
+}
+
+aside > a:focus {
+    outline-color: #ff1492;
+    outline-color: hsl(var(--brandHSL));
+    transition: outline-color .25s ease
+}
+
+:root {
+    --surface: #1b1b1b;
+    --surface2: #303030;
+    --text: #e2e2e2;
+}
